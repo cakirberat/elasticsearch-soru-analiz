@@ -231,6 +231,8 @@ def main():
     # Model eğitimi
     if not analyzer.load_model():
         analyzer.train_model()
+
+        
         
     # Test sorgusu
     test_query = "Python programlama nasıl öğrenilir?"

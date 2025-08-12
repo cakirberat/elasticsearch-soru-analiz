@@ -32,3 +32,4 @@ vardır
 söylenemez
 söylenebilir
 hangi
+nasıl

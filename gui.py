@@ -124,7 +124,6 @@ class SoruAramaApp:
                 print("🔄 Model eğitiliyor...")
                 analyzer.train_model()
             else:
-                print("✅ Kaydedilmiş model yüklendi")
                 # Yüklenen vektörizer ile mevcut korpustan TF-IDF matrisi oluştur
                 analyzer.tfidf_matrix = analyzer.vectorizer.transform(analyzer.cleaned_questions)
                 
