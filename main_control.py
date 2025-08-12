@@ -60,13 +60,15 @@ class MainControlPanel:
         self.create_section(parent, "📱 Ana Uygulamalar", [
             ("🖥️ GUI Uygulaması", self.start_gui, "#2a5298"),
             ("🔍 Elasticsearch Test", self.start_es_test, "#e67e22"),
+            ("🤖 ML Analiz Test", self.start_ml_test, "#e74c3c"),
             ("⚡ Performans Test", self.start_performance_test, "#9b59b6"),
-            ("🔮 Performans Tahmini", self.start_performance_analyzer, "#e74c3c")
+            ("🔮 Performans Tahmini", self.start_performance_analyzer, "#8e44ad")
         ])
         
         # Test ve analiz
         self.create_section(parent, "🧪 Test ve Analiz", [
             ("🔧 Elasticsearch Bağlantı", self.start_es_config, "#27ae60"),
+            ("🤖 ML Test Sistemi", self.start_ml_test_system, "#e74c3c"),
             ("📊 Performans Özeti", self.show_performance_summary, "#8e44ad"),
             ("💾 Metrikleri Kaydet", self.save_metrics, "#f39c12")
         ])
@@ -117,15 +119,12 @@ class MainControlPanel:
         tk.Button(control_frame, text="💾 Logları Kaydet", command=self.save_logs,
                  bg="#3498db", fg="white", font=("Arial", 10, "bold")).pack(side=tk.LEFT)
         
-    def log_message(self, message, level="INFO"):
-        """Log mesajı ekler"""
+    def _append_log(self, message, level="INFO"):
+        """UI thread içinde log mesajını ekler"""
         timestamp = datetime.now().strftime("%H:%M:%S")
         formatted_message = f"[{timestamp}] {level}: {message}\n"
-        
         self.log_text.insert(tk.END, formatted_message)
         self.log_text.see(tk.END)
-        
-        # Renk kodlaması
         if level == "ERROR":
             self.log_text.tag_add("error", f"{self.log_text.index('end-2c').split('.')[0]}.0", "end-1c")
             self.log_text.tag_config("error", foreground="#e74c3c")
@@ -135,6 +134,13 @@ class MainControlPanel:
         elif level == "WARNING":
             self.log_text.tag_add("warning", f"{self.log_text.index('end-2c').split('.')[0]}.0", "end-1c")
             self.log_text.tag_config("warning", foreground="#f39c12")
+
+    def log_message(self, message, level="INFO"):
+        """Thread-safe log"""
+        if threading.current_thread() is threading.main_thread():
+            self._append_log(message, level)
+        else:
+            self.root.after(0, self._append_log, message, level)
             
     def run_script(self, script_name, display_name):
         """Script çalıştırır"""
@@ -142,10 +148,22 @@ class MainControlPanel:
             self.log_message(f"{display_name} başlatılıyor...", "INFO")
             
             # Python script'ini çalıştır
-            process = subprocess.Popen([sys.executable, script_name], 
-                                     stdout=subprocess.PIPE, 
-                                     stderr=subprocess.PIPE,
-                                     text=True, bufsize=1, universal_newlines=True)
+            # UTF-8 çıktıyı zorla (Windows'ta emoji ve Unicode sorunlarını önler)
+            env = os.environ.copy()
+            env["PYTHONIOENCODING"] = "utf-8"
+            env["PYTHONUTF8"] = "1"
+
+            process = subprocess.Popen(
+                [sys.executable, "-u", script_name],
+                stdout=subprocess.PIPE,
+                stderr=subprocess.STDOUT,  # stderr'i stdout'a birleştir
+                text=True,
+                encoding="utf-8",
+                errors="replace",
+                bufsize=1,
+                universal_newlines=True,
+                env=env,
+            )
             
             self.running_processes[script_name] = process
             self.log_message(f"{display_name} başarıyla başlatıldı (PID: {process.pid})", "SUCCESS")
@@ -190,6 +208,14 @@ class MainControlPanel:
     def start_performance_analyzer(self):
         """Performans analizini başlatır"""
         self.run_script("performance_analyzer.py", "Performans Analizi")
+        
+    def start_ml_test(self):
+        """ML analiz testini başlatır"""
+        self.run_script("ml_analyzer.py", "ML Analiz Test")
+        
+    def start_ml_test_system(self):
+        """ML test sistemini başlatır"""
+        self.run_script("ml_test.py", "ML Test Sistemi")
         
     def start_es_config(self):
         """Elasticsearch yapılandırmasını başlatır"""

@@ -24,6 +24,11 @@ def save_stopwords(stopwords):
 stopwords = load_stopwords()
 stemmer = TurkishStemmer()
 
+def refresh_stopwords():
+    """Stopwords listesini dosyadan tekrar yükler (GUI değişikliklerinde güncel kalması için)."""
+    global stopwords
+    stopwords = load_stopwords()
+
 # Stopwordleri temizle
 @monitor_performance("stopword_temizleme")
 def temizle(soru):

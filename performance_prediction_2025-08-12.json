@@ -1,0 +1,116 @@
+{
+  "timestamp": "2025-08-12T11:42:28.272309",
+  "target_data_count": 10000,
+  "predictions": {
+    "stopword_temizleme": {
+      "predicted_duration": 0.12335681915283205,
+      "predicted_memory": 0.0021875237492920345,
+      "confidence_min": 0.12064075469970705,
+      "confidence_max": 0.12607288360595703,
+      "estimated_minutes": 0.0020559469858805342,
+      "estimated_hours": 3.42657830980089e-05
+    },
+    "elasticsearch_arama": {
+      "predicted_duration": 287.7455949783325,
+      "predicted_memory": 1.6250176423312255,
+      "confidence_min": 287.73928797245026,
+      "confidence_max": 287.7519019842148,
+      "estimated_minutes": 4.795759916305542,
+      "estimated_hours": 0.0799293319384257
+    },
+    "ml_veri_yukleme": {
+      "predicted_duration": 6.1429871453179254,
+      "predicted_memory": 1.2083464519898854,
+      "confidence_min": 6.140481962098016,
+      "confidence_max": 6.145492328537835,
+      "estimated_minutes": 0.1023831190886321,
+      "estimated_hours": 0.0017063853181438682
+    },
+    "ml_metin_temizleme": {
+      "predicted_duration": 33.6297353108724,
+      "predicted_memory": 0.010416779758533496,
+      "confidence_min": 33.62966819604238,
+      "confidence_max": 33.629802425702415,
+      "estimated_minutes": 0.56049558851454,
+      "estimated_hours": 0.009341593141908999
+    },
+    "ml_model_yukleme": {
+      "predicted_duration": 0.5814764234754775,
+      "predicted_memory": 0.03125033927560049,
+      "confidence_min": 0.5812147590849135,
+      "confidence_max": 0.5817380878660414,
+      "estimated_minutes": 0.009691273724591292,
+      "estimated_hours": 0.00016152122874318818
+    },
+    "ml_benzer_soru_bulma": {
+      "predicted_duration": 0.0,
+      "predicted_memory": 0.11979296722313522,
+      "confidence_min": 0,
+      "confidence_max": 0.0,
+      "estimated_minutes": 0.0,
+      "estimated_hours": 0.0
+    }
+  },
+  "analysis_results": {
+    "stopword_temizleme": {
+      "data_count": 50,
+      "avg_duration": 0.0006167840957641602,
+      "min_duration": 0.0,
+      "max_duration": 0.00543212890625,
+      "total_duration": 0.030839204788208008,
+      "avg_memory": 0.000546875,
+      "performance_per_item": 1.2335681915283204e-05,
+      "measurement_count": 50
+    },
+    "elasticsearch_arama": {
+      "data_count": 2,
+      "avg_duration": 0.057549118995666504,
+      "min_duration": 0.05124211311340332,
+      "max_duration": 0.06385612487792969,
+      "total_duration": 0.11509823799133301,
+      "avg_memory": 0.40625,
+      "performance_per_item": 0.028774559497833252,
+      "measurement_count": 2
+    },
+    "ml_veri_yukleme": {
+      "data_count": 3,
+      "avg_duration": 0.0018428961435953777,
+      "min_duration": 0.0,
+      "max_duration": 0.005010366439819336,
+      "total_duration": 0.005528688430786133,
+      "avg_memory": 0.3020833333333333,
+      "performance_per_item": 0.0006142987145317926,
+      "measurement_count": 3
+    },
+    "ml_metin_temizleme": {
+      "data_count": 3,
+      "avg_duration": 0.010088920593261719,
+      "min_duration": 0.010002374649047852,
+      "max_duration": 0.010136604309082031,
+      "total_duration": 0.030266761779785156,
+      "avg_memory": 0.0026041666666666665,
+      "performance_per_item": 0.0033629735310872397,
+      "measurement_count": 3
+    },
+    "ml_model_yukleme": {
+      "data_count": 3,
+      "avg_duration": 0.00017444292704264322,
+      "min_duration": 0.0,
+      "max_duration": 0.0005233287811279297,
+      "total_duration": 0.0005233287811279297,
+      "avg_memory": 0.0078125,
+      "performance_per_item": 5.814764234754774e-05,
+      "measurement_count": 3
+    },
+    "ml_benzer_soru_bulma": {
+      "data_count": 3,
+      "avg_duration": 0.0,
+      "min_duration": 0.0,
+      "max_duration": 0.0,
+      "total_duration": 0.0,
+      "avg_memory": 0.029947916666666668,
+      "performance_per_item": 0.0,
+      "measurement_count": 3
+    }
+  }
+}
