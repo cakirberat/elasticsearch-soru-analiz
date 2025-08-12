@@ -21,7 +21,7 @@ def test_ml_system():
     print("\n📊 1. Veri Yükleme Testi")
     print("-" * 30)
     if analyzer.load_questions_from_db():
-        print(f"✅ {len(analyzer.questions)} soru başarıyla yüklendi")
+        pass
     else:
         print("❌ Veri yükleme başarısız")
         return
@@ -30,7 +30,6 @@ def test_ml_system():
     print("\n🧹 2. Metin Temizleme Testi")
     print("-" * 30)
     analyzer.clean_questions()
-    print(f"✅ {len(analyzer.cleaned_questions)} soru temizlendi")
     
     # 3. Model eğitimi testi
     print("\n🎓 3. Model Eğitimi Testi")

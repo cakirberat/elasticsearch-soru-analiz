@@ -83,7 +83,7 @@ class MLAnalyzer:
             sublinear_tf=True,
             norm="l2",
             lowercase=False,
-            token_pattern=r"(?u)\\b\\w\\w+\\b",
+            token_pattern=r"(?u)\b\w\w+\b",
         )
         
         # TF-IDF matrisini oluştur
