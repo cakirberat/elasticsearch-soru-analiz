@@ -54,28 +54,6 @@ python main_control.py
 - 📊 Sistem Durumu Kontrolü
 - 📋 Gerçek Zamanlı Loglar
 
-### Manuel Kullanım
-```bash
-# GUI Uygulaması
-python gui.py
-
-# Elasticsearch testi
-python es_test.py
-
-# Performans testi
-python performance_test.py
-
-# Performans tahmini
-python performance_analyzer.py
-```
-
-### Manuel Kullanım
-```python
-from es_search import benzer_sorulari_bul
-
-# Soru arama
-benzer_sorulari_bul("Python programlama nasıl öğrenilir?", esik=0.75)
-```
 
 ## 📊 Performans İzleme
 
@@ -131,19 +109,3 @@ PORT = 9200
 USE_SSL = False
 TIMEOUT = 30
 ```
-
-### Stopwords Yönetimi
-GUI üzerinden veya dosya düzenleyerek stopwords ekleyebilir/çıkarabilirsiniz:
-
-
-## 📈 Performans Optimizasyonu
-
-### Önerilen Ayarlar
-- **Elasticsearch**: Yerel kurulum kullanın
-- **Bellek**: En az 2GB RAM ayırın
-- **İndeksleme**: Düzenli indeks bakımı yapın
-
-### Tipik Performans Değerleri
-- Stopword Temizleme: `0.001-0.005 saniye`
-- Elasticsearch Arama: `0.1-2.0 saniye`
-- GUI Yanıt Süresi: `<1 saniye`
