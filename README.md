@@ -56,38 +56,6 @@ python main_control.py
 - 📊 Sistem Durumu Kontrolü
 - 📋 Gerçek Zamanlı Loglar
 
-### Manuel Kullanım (Komut Satırı)
-```bash
-# GUI Uygulaması (Elasticsearch + ML seçimi)
-python gui.py
-
-# Elasticsearch testi
-python es_test.py
-
-# ML Analiz testi
-python ml_analyzer.py
-
-# Performans testi
-python performance_test.py
-
-# Performans tahmini
-python performance_analyzer.py
-```
-
-### Python API Örnekleri
-```python
-# Elasticsearch ile arama
-from es_search import benzer_sorulari_bul
-benzer_sorulari_bul("Python programlama nasıl öğrenilir?", esik=0.75)
-
-# Machine Learning ile arama
-from ml_analyzer import MLAnalyzer
-analyzer = MLAnalyzer()
-analyzer.load_questions_from_db()
-analyzer.clean_questions()
-analyzer.train_model()
-results = analyzer.find_similar_questions_ml("Python programlama nasıl öğrenilir?", top_k=5)
-```
 
 ## 📊 Performans İzleme
 
@@ -99,22 +67,6 @@ Sistem otomatik olarak şu metrikleri toplar:
 | 💾 **Bellek** | Kullanılan bellek miktarı (MB) |
 | 🔥 **CPU** | İşlemci kullanım oranı (%) |
 | 🔢 **Çalıştırma** | İşlem çalıştırma sayısı |
-
-### Performans Özeti Görüntüleme
-```python
-from performance_monitor import print_performance_summary
-print_performance_summary()
-```
-
-### Performans Tahmini
-```python
-from performance_analyzer import PerformanceAnalyzer
-
-analyzer = PerformanceAnalyzer()
-predictions = analyzer.interactive_prediction()
-```
-
-GUI’de Performans Tahmini penceresine girilen sayı artık farklı formatlarda kabul edilir (örn: `10.000`, `10,000`, `10000`).
 
 ## 🏗️ Proje Yapısı
 
@@ -148,24 +100,5 @@ USE_SSL = False
 TIMEOUT = 30
 ```
 
-### Stopwords Yönetimi
-- GUI üzerinden ekle/sil → anında etkili (ES temizleyici `refresh_stopwords()` ile güncellenir)
-- Dosya: `stopwords.txt`
-
-### ML Kalite İyileştirmeleri
-- Noktalama temizleme + küçük harf + kök/stopsuz temizlik
-- TF‑IDF ayarları: n‑gram(1–3), L2 norm, sublinear TF, max_features=5000
-- Model yüklenince mevcut korpusa göre TF‑IDF matrisi yeniden oluşturulur
 
 
-## 📈 Performans Optimizasyonu
-
-### Önerilen Ayarlar
-- **Elasticsearch**: Yerel kurulum kullanın
-- **Bellek**: En az 2GB RAM ayırın
-- **İndeksleme**: Düzenli indeks bakımı yapın
-
-### Tipik Performans Değerleri
-- Stopword Temizleme: `0.001-0.005 saniye`
-- Elasticsearch Arama: `0.1-2.0 saniye`
-- GUI Yanıt Süresi: `<1 saniye`
