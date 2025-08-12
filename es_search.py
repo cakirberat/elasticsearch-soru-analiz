@@ -1,6 +1,8 @@
 import os
 from elasticsearch import Elasticsearch
 from TurkishStemmer import TurkishStemmer
+from performance_monitor import monitor_performance
+from es_config import get_default_client, test_connection
 
 # Stopwords
 STOPWORDS_FILE = "stopwords.txt"
@@ -23,6 +25,7 @@ stopwords = load_stopwords()
 stemmer = TurkishStemmer()
 
 # Stopwordleri temizle
+@monitor_performance("stopword_temizleme")
 def temizle(soru):
     global stopwords
     # Stopwords listesini köklerine indirgenmiş ve küçük harfe çevrilmiş olarak hazırla
@@ -33,8 +36,14 @@ def temizle(soru):
     ])
 
 # Elasticsearch arama fonksiyonu
+@monitor_performance("elasticsearch_arama")
 def benzer_sorulari_bul(soru, esik=0.75):
-    es = Elasticsearch("http://localhost:9200")
+    # Elasticsearch 8.x için yapılandırılmış istemci kullan
+    es = get_default_client()
+    if not es:
+        print("❌ Elasticsearch bağlantısı kurulamadı. Lütfen servisin çalıştığından emin olun.")
+        return
+    
     temiz_soru = temizle(soru)
 
     body = {

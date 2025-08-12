@@ -1,0 +1,3 @@
+elasticsearch>=8.0.0
+TurkishStemmer>=1.0.0
+psutil>=5.8.0
