@@ -104,7 +104,13 @@ class MLAnalyzer:
         
         if os.path.exists(model_file):
             self.vectorizer = joblib.load(model_file)
-            print("✅ Kaydedilmiş model yüklendi")
+            # TF-IDF matrisini yeniden oluştur
+            if self.cleaned_questions:
+                self.tfidf_matrix = self.vectorizer.transform(self.cleaned_questions)
+                print("✅ Kaydedilmiş model yüklendi ve TF-IDF matrisi oluşturuldu")
+            else:
+                print("❌ Temizlenmiş sorular bulunamadı, model yüklenemedi")
+                return False
             return True
         else:
             print("❌ Kaydedilmiş model bulunamadı, yeni model eğitilecek")
