@@ -1,33 +1,20 @@
-1. Uzun soru (örnek):
-Osmanlı Devleti'nin 17. yüzyılda yaşadığı duraklama döneminin temel nedenleri nelerdir?
-
-Benzeyen 5 soru:
-- Osmanlı Devleti'nin duraklama dönemine girmesinde etkili olan faktörler nelerdir?
-- 17. yüzyılda Osmanlı Devleti'nde görülen duraklamanın sebepleri nelerdir?
-- Osmanlı'nın 17. yüzyıldaki siyasi ve ekonomik sorunları hangi sonuçlara yol açmıştır?
-- Duraklama dönemine girilmesinde Osmanlı’daki iç ve dış etkenler nelerdir?
-- Osmanlı Devleti'nin 17. yüzyıldaki gerilemesine zemin hazırlayan gelişmeler nelerdir?
-
-------------------------------------------------------
-
-2. Uzun soru (örnek):
-Fotosentez sürecinde ışık ve karanlık reaksiyonlarının bitkilerdeki enerji üretimine katkısı nedir?
-
-Benzeyen 5 soru:
-- Fotosentezin ışık ve karanlık evreleri bitkilerde nasıl bir enerji dönüşümü sağlar?
-- Bitkilerde enerji üretimi açısından fotosentezin iki aşaması ne şekilde çalışır?
-- Işık ve karanlık reaksiyonları fotosentez sürecinde hangi görevleri üstlenir?
-- Fotosentezin evreleri bitkinin besin üretiminde nasıl rol oynar?
-- Işık bağımlı ve bağımsız reaksiyonlar enerji dönüşümünde nasıl etkilidir?
-
-------------------------------------------------------
-
-3. Uzun soru (örnek):
-Bir cismin eğik düzlemde sürtünmesiz olarak aşağıya doğru hareket ederken kazandığı kinetik enerji nasıl hesaplanır?
-
-Benzeyen 5 soru:
-- Sürtünmesiz bir eğik düzlemde hareket eden cismin kinetik enerjisi nasıl bulunur?
-- Eğik düzlemde aşağıya kayan cismin enerji dönüşümü hangi formülle ifade edilir?
-- Sürtünmesiz eğik düzlemde potansiyel enerjinin kinetik enerjiye dönüşümü nasıl olur?
-- Bir cismin eğik düzlemde hız kazanma süreci ve enerji hesabı nasıl yapılır?
-- Sürtünmesiz eğik düzlemde hareket eden cismin hız ve kinetik enerji ilişkisi nasıldır?
+1. Türkiye’nin en kalabalık ili hangisidir?
+2. Osmanlı Devleti hangi padişah döneminde İstanbul’u fethetmiştir?
+3. Solunum sisteminde oksijenin hücrelere taşınmasını sağlayan yapı nedir?
+4. İnsan vücudunda en güçlü kas hangisidir?
+5. Türk edebiyatında “Kutadgu Bilig” adlı eserin yazarı kimdir?
+6. Su, deniz seviyesinde kaç derecede donar?
+7. Türkiye’nin en büyük doğal gölü hangisidir?
+8. Dünya’nın en hızlı kara hayvanı nedir?
+9. Atom numarası en küçük element hangisidir?
+10. Türkiye’nin sınır komşusu olan üç ülkeyi yazınız.
+11. Türk edebiyatında ilk realist roman hangisidir?
+12. Bir dörtgenin iç açılarının ölçüleri toplamı kaç derecedir?
+13. Yeryüzündeki buzulların büyük kısmı hangi bölgede bulunur?
+14. Bir elektrik devresinde kondansatörün görevi nedir?
+15. Türkiye’de çok partili hayata geçiş hangi yılda olmuştur?
+16. Fotosentezde üretilen glikoz bitkide hangi yapıda depolanır?
+17. Cumhuriyet Dönemi Türk şiirinde Garip akımının öncülerinden biri kimdir?
+18. Bir dikdörtgen prizmanın hacmini hesaplamak için kullanılan formül nedir?
+19. Türkiye’nin en uzun kara sınırı hangi ülkeyledir?
+20. Bir edebi eserde kahramanın iç konuşmalarını doğrudan vermek hangi teknikle sağlanır?
