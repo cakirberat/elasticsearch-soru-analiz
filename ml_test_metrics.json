@@ -1,24 +1,24 @@
 {
-  "export_timestamp": "2025-08-18T08:21:51.997531",
+  "export_timestamp": "2025-08-18T08:36:01.934223",
   "total_operations": 8,
   "total_measurements": 162,
   "metrics": {
     "ml_veri_yukleme": [
       {
-        "timestamp": "2025-08-18T08:21:48.038252",
-        "duration_seconds": 0.013577699661254883,
-        "memory_used_mb": 0.80859375,
-        "cpu_percent": 14.9,
+        "timestamp": "2025-08-18T08:35:59.166310",
+        "duration_seconds": 0.005053520202636719,
+        "memory_used_mb": 0.8203125,
+        "cpu_percent": 30.0,
         "success": true,
         "function_name": "load_questions_from_db",
         "args_count": 1,
         "kwargs_count": 0
       },
       {
-        "timestamp": "2025-08-18T08:21:51.760147",
-        "duration_seconds": 0.0024023056030273438,
-        "memory_used_mb": 0.01953125,
-        "cpu_percent": 25.0,
+        "timestamp": "2025-08-18T08:36:01.620040",
+        "duration_seconds": 0.010130167007446289,
+        "memory_used_mb": 0.03515625,
+        "cpu_percent": 0.0,
         "success": true,
         "function_name": "load_questions_from_db",
         "args_count": 1,
@@ -27,8 +27,8 @@
     ],
     "stopword_temizleme": [
       {
-        "timestamp": "2025-08-18T08:21:48.040544",
-        "duration_seconds": 0.0007774829864501953,
+        "timestamp": "2025-08-18T08:35:59.167041",
+        "duration_seconds": 0.0007309913635253906,
         "memory_used_mb": 0.01171875,
         "cpu_percent": 0.0,
         "success": true,
@@ -37,8 +37,8 @@
         "kwargs_count": 0
       },
       {
-        "timestamp": "2025-08-18T08:21:48.042974",
-        "duration_seconds": 0.0014171600341796875,
+        "timestamp": "2025-08-18T08:35:59.168051",
+        "duration_seconds": 0.0010101795196533203,
         "memory_used_mb": 0.0,
         "cpu_percent": 0.0,
         "success": true,
@@ -47,8 +47,8 @@
         "kwargs_count": 0
       },
       {
-        "timestamp": "2025-08-18T08:21:48.043995",
-        "duration_seconds": 0.0010209083557128906,
+        "timestamp": "2025-08-18T08:35:59.169073",
+        "duration_seconds": 0.0010223388671875,
         "memory_used_mb": 0.0,
         "cpu_percent": 0.0,
         "success": true,
@@ -57,8 +57,8 @@
         "kwargs_count": 0
       },
       {
-        "timestamp": "2025-08-18T08:21:48.044972",
-        "duration_seconds": 0.0009770393371582031,
+        "timestamp": "2025-08-18T08:35:59.170068",
+        "duration_seconds": 0.0009949207305908203,
         "memory_used_mb": 0.00390625,
         "cpu_percent": 0.0,
         "success": true,
@@ -67,8 +67,8 @@
         "kwargs_count": 0
       },
       {
-        "timestamp": "2025-08-18T08:21:48.045954",
-        "duration_seconds": 0.0009818077087402344,
+        "timestamp": "2025-08-18T08:35:59.171074",
+        "duration_seconds": 0.0010061264038085938,
         "memory_used_mb": 0.0,
         "cpu_percent": 0.0,
         "success": true,
@@ -77,8 +77,8 @@
         "kwargs_count": 0
       },
       {
-        "timestamp": "2025-08-18T08:21:48.047137",
-        "duration_seconds": 0.0011830329895019531,
+        "timestamp": "2025-08-18T08:35:59.172070",
+        "duration_seconds": 0.0009958744049072266,
         "memory_used_mb": 0.0,
         "cpu_percent": 0.0,
         "success": true,
@@ -87,8 +87,8 @@
         "kwargs_count": 0
       },
       {
-        "timestamp": "2025-08-18T08:21:48.048550",
-        "duration_seconds": 0.0014128684997558594,
+        "timestamp": "2025-08-18T08:35:59.173490",
+        "duration_seconds": 0.0014197826385498047,
         "memory_used_mb": 0.0,
         "cpu_percent": 0.0,
         "success": true,
@@ -97,8 +97,8 @@
         "kwargs_count": 0
       },
       {
-        "timestamp": "2025-08-18T08:21:48.049580",
-        "duration_seconds": 0.0010306835174560547,
+        "timestamp": "2025-08-18T08:35:59.174554",
+        "duration_seconds": 0.0010640621185302734,
         "memory_used_mb": 0.0,
         "cpu_percent": 0.0,
         "success": true,
@@ -107,8 +107,8 @@
         "kwargs_count": 0
       },
       {
-        "timestamp": "2025-08-18T08:21:48.050556",
-        "duration_seconds": 0.0009758472442626953,
+        "timestamp": "2025-08-18T08:35:59.175065",
+        "duration_seconds": 0.0005109310150146484,
         "memory_used_mb": 0.0,
         "cpu_percent": 0.0,
         "success": true,
@@ -117,8 +117,8 @@
         "kwargs_count": 0
       },
       {
-        "timestamp": "2025-08-18T08:21:48.051561",
-        "duration_seconds": 0.0010044574737548828,
+        "timestamp": "2025-08-18T08:35:59.176093",
+        "duration_seconds": 0.0010280609130859375,
         "memory_used_mb": 0.0,
         "cpu_percent": 0.0,
         "success": true,
@@ -127,8 +127,8 @@
         "kwargs_count": 0
       },
       {
-        "timestamp": "2025-08-18T08:21:48.053141",
-        "duration_seconds": 0.001580953598022461,
+        "timestamp": "2025-08-18T08:35:59.177097",
+        "duration_seconds": 0.0010042190551757812,
         "memory_used_mb": 0.0,
         "cpu_percent": 0.0,
         "success": true,
@@ -137,208 +137,8 @@
         "kwargs_count": 0
       },
       {
-        "timestamp": "2025-08-18T08:21:48.054133",
-        "duration_seconds": 0.0009915828704833984,
-        "memory_used_mb": 0.0,
-        "cpu_percent": 0.0,
-        "success": true,
-        "function_name": "temizle",
-        "args_count": 1,
-        "kwargs_count": 0
-      },
-      {
-        "timestamp": "2025-08-18T08:21:48.055660",
-        "duration_seconds": 0.0015265941619873047,
-        "memory_used_mb": 0.0,
-        "cpu_percent": 25.0,
-        "success": true,
-        "function_name": "temizle",
-        "args_count": 1,
-        "kwargs_count": 0
-      },
-      {
-        "timestamp": "2025-08-18T08:21:48.056679",
-        "duration_seconds": 0.0010194778442382812,
-        "memory_used_mb": 0.0,
-        "cpu_percent": 0.0,
-        "success": true,
-        "function_name": "temizle",
-        "args_count": 1,
-        "kwargs_count": 0
-      },
-      {
-        "timestamp": "2025-08-18T08:21:48.057669",
-        "duration_seconds": 0.000989675521850586,
-        "memory_used_mb": 0.0,
-        "cpu_percent": 0.0,
-        "success": true,
-        "function_name": "temizle",
-        "args_count": 1,
-        "kwargs_count": 0
-      },
-      {
-        "timestamp": "2025-08-18T08:21:48.058666",
-        "duration_seconds": 0.0009975433349609375,
-        "memory_used_mb": 0.0,
-        "cpu_percent": 0.0,
-        "success": true,
-        "function_name": "temizle",
-        "args_count": 1,
-        "kwargs_count": 0
-      },
-      {
-        "timestamp": "2025-08-18T08:21:48.059683",
-        "duration_seconds": 0.0010166168212890625,
-        "memory_used_mb": 0.0,
-        "cpu_percent": 0.0,
-        "success": true,
-        "function_name": "temizle",
-        "args_count": 1,
-        "kwargs_count": 0
-      },
-      {
-        "timestamp": "2025-08-18T08:21:48.061926",
-        "duration_seconds": 0.002243518829345703,
-        "memory_used_mb": 0.0,
-        "cpu_percent": 0.0,
-        "success": true,
-        "function_name": "temizle",
-        "args_count": 1,
-        "kwargs_count": 0
-      },
-      {
-        "timestamp": "2025-08-18T08:21:48.065179",
-        "duration_seconds": 0.0020122528076171875,
-        "memory_used_mb": 0.0,
-        "cpu_percent": 0.0,
-        "success": true,
-        "function_name": "temizle",
-        "args_count": 1,
-        "kwargs_count": 0
-      },
-      {
-        "timestamp": "2025-08-18T08:21:48.066179",
-        "duration_seconds": 0.0009996891021728516,
-        "memory_used_mb": 0.0,
-        "cpu_percent": 0.0,
-        "success": true,
-        "function_name": "temizle",
-        "args_count": 1,
-        "kwargs_count": 0
-      },
-      {
-        "timestamp": "2025-08-18T08:21:48.069605",
-        "duration_seconds": 0.001007080078125,
-        "memory_used_mb": 0.0,
-        "cpu_percent": 0.0,
-        "success": true,
-        "function_name": "temizle",
-        "args_count": 1,
-        "kwargs_count": 0
-      },
-      {
-        "timestamp": "2025-08-18T08:21:48.070636",
-        "duration_seconds": 0.0010306835174560547,
-        "memory_used_mb": 0.0,
-        "cpu_percent": 50.0,
-        "success": true,
-        "function_name": "temizle",
-        "args_count": 1,
-        "kwargs_count": 0
-      },
-      {
-        "timestamp": "2025-08-18T08:21:48.073144",
-        "duration_seconds": 0.0015025138854980469,
-        "memory_used_mb": 0.0,
-        "cpu_percent": 0.0,
-        "success": true,
-        "function_name": "temizle",
-        "args_count": 1,
-        "kwargs_count": 0
-      },
-      {
-        "timestamp": "2025-08-18T08:21:48.074163",
-        "duration_seconds": 0.0010192394256591797,
-        "memory_used_mb": 0.0,
-        "cpu_percent": 0.0,
-        "success": true,
-        "function_name": "temizle",
-        "args_count": 1,
-        "kwargs_count": 0
-      },
-      {
-        "timestamp": "2025-08-18T08:21:48.076511",
-        "duration_seconds": 0.00098419189453125,
-        "memory_used_mb": 0.0,
-        "cpu_percent": 0.0,
-        "success": true,
-        "function_name": "temizle",
-        "args_count": 1,
-        "kwargs_count": 0
-      },
-      {
-        "timestamp": "2025-08-18T08:21:48.079253",
-        "duration_seconds": 0.0010089874267578125,
-        "memory_used_mb": 0.0,
-        "cpu_percent": 0.0,
-        "success": true,
-        "function_name": "temizle",
-        "args_count": 1,
-        "kwargs_count": 0
-      },
-      {
-        "timestamp": "2025-08-18T08:21:48.082045",
-        "duration_seconds": 0.0017688274383544922,
-        "memory_used_mb": 0.0,
-        "cpu_percent": 0.0,
-        "success": true,
-        "function_name": "temizle",
-        "args_count": 1,
-        "kwargs_count": 0
-      },
-      {
-        "timestamp": "2025-08-18T08:21:48.084762",
-        "duration_seconds": 0.0,
-        "memory_used_mb": 0.0,
-        "cpu_percent": 0.0,
-        "success": true,
-        "function_name": "temizle",
-        "args_count": 1,
-        "kwargs_count": 0
-      },
-      {
-        "timestamp": "2025-08-18T08:21:48.086771",
-        "duration_seconds": 0.0,
-        "memory_used_mb": 0.0,
-        "cpu_percent": 40.0,
-        "success": true,
-        "function_name": "temizle",
-        "args_count": 1,
-        "kwargs_count": 0
-      },
-      {
-        "timestamp": "2025-08-18T08:21:48.088792",
-        "duration_seconds": 0.0,
-        "memory_used_mb": 0.0,
-        "cpu_percent": 0.0,
-        "success": true,
-        "function_name": "temizle",
-        "args_count": 1,
-        "kwargs_count": 0
-      },
-      {
-        "timestamp": "2025-08-18T08:21:48.088792",
-        "duration_seconds": 0.0,
-        "memory_used_mb": 0.0,
-        "cpu_percent": 0.0,
-        "success": true,
-        "function_name": "temizle",
-        "args_count": 1,
-        "kwargs_count": 0
-      },
-      {
-        "timestamp": "2025-08-18T08:21:48.091555",
-        "duration_seconds": 0.002763032913208008,
+        "timestamp": "2025-08-18T08:35:59.178093",
+        "duration_seconds": 0.0009953975677490234,
         "memory_used_mb": 0.00390625,
         "cpu_percent": 0.0,
         "success": true,
@@ -347,357 +147,7 @@
         "kwargs_count": 0
       },
       {
-        "timestamp": "2025-08-18T08:21:48.093840",
-        "duration_seconds": 0.0014965534210205078,
-        "memory_used_mb": 0.0,
-        "cpu_percent": 0.0,
-        "success": true,
-        "function_name": "temizle",
-        "args_count": 1,
-        "kwargs_count": 0
-      },
-      {
-        "timestamp": "2025-08-18T08:21:48.095619",
-        "duration_seconds": 0.0006859302520751953,
-        "memory_used_mb": 0.0,
-        "cpu_percent": 0.0,
-        "success": true,
-        "function_name": "temizle",
-        "args_count": 1,
-        "kwargs_count": 0
-      },
-      {
-        "timestamp": "2025-08-18T08:21:48.096964",
-        "duration_seconds": 0.001344919204711914,
-        "memory_used_mb": 0.00390625,
-        "cpu_percent": 0.0,
-        "success": true,
-        "function_name": "temizle",
-        "args_count": 1,
-        "kwargs_count": 0
-      },
-      {
-        "timestamp": "2025-08-18T08:21:48.098701",
-        "duration_seconds": 0.0017366409301757812,
-        "memory_used_mb": 0.0,
-        "cpu_percent": 0.0,
-        "success": true,
-        "function_name": "temizle",
-        "args_count": 1,
-        "kwargs_count": 0
-      },
-      {
-        "timestamp": "2025-08-18T08:21:48.099768",
-        "duration_seconds": 0.0010673999786376953,
-        "memory_used_mb": 0.0,
-        "cpu_percent": 0.0,
-        "success": true,
-        "function_name": "temizle",
-        "args_count": 1,
-        "kwargs_count": 0
-      },
-      {
-        "timestamp": "2025-08-18T08:21:48.102695",
-        "duration_seconds": 0.0019958019256591797,
-        "memory_used_mb": 0.00390625,
-        "cpu_percent": 28.55,
-        "success": true,
-        "function_name": "temizle",
-        "args_count": 1,
-        "kwargs_count": 0
-      },
-      {
-        "timestamp": "2025-08-18T08:21:48.104019",
-        "duration_seconds": 0.0013239383697509766,
-        "memory_used_mb": 0.0,
-        "cpu_percent": 0.0,
-        "success": true,
-        "function_name": "temizle",
-        "args_count": 1,
-        "kwargs_count": 0
-      },
-      {
-        "timestamp": "2025-08-18T08:21:48.105129",
-        "duration_seconds": 0.0011103153228759766,
-        "memory_used_mb": 0.0,
-        "cpu_percent": 0.0,
-        "success": true,
-        "function_name": "temizle",
-        "args_count": 1,
-        "kwargs_count": 0
-      },
-      {
-        "timestamp": "2025-08-18T08:21:48.106033",
-        "duration_seconds": 0.0009033679962158203,
-        "memory_used_mb": 0.0,
-        "cpu_percent": 0.0,
-        "success": true,
-        "function_name": "temizle",
-        "args_count": 1,
-        "kwargs_count": 0
-      },
-      {
-        "timestamp": "2025-08-18T08:21:48.108033",
-        "duration_seconds": 0.0010933876037597656,
-        "memory_used_mb": 0.00390625,
-        "cpu_percent": 0.0,
-        "success": true,
-        "function_name": "temizle",
-        "args_count": 1,
-        "kwargs_count": 0
-      },
-      {
-        "timestamp": "2025-08-18T08:21:48.109114",
-        "duration_seconds": 0.001081705093383789,
-        "memory_used_mb": 0.0,
-        "cpu_percent": 0.0,
-        "success": true,
-        "function_name": "temizle",
-        "args_count": 1,
-        "kwargs_count": 0
-      },
-      {
-        "timestamp": "2025-08-18T08:21:48.111535",
-        "duration_seconds": 0.0019004344940185547,
-        "memory_used_mb": 0.0,
-        "cpu_percent": 0.0,
-        "success": true,
-        "function_name": "temizle",
-        "args_count": 1,
-        "kwargs_count": 0
-      },
-      {
-        "timestamp": "2025-08-18T08:21:48.113913",
-        "duration_seconds": 0.0020036697387695312,
-        "memory_used_mb": 0.0,
-        "cpu_percent": 0.0,
-        "success": true,
-        "function_name": "temizle",
-        "args_count": 1,
-        "kwargs_count": 0
-      },
-      {
-        "timestamp": "2025-08-18T08:21:48.114919",
-        "duration_seconds": 0.0010058879852294922,
-        "memory_used_mb": 0.0,
-        "cpu_percent": 0.0,
-        "success": true,
-        "function_name": "temizle",
-        "args_count": 1,
-        "kwargs_count": 0
-      },
-      {
-        "timestamp": "2025-08-18T08:21:48.115938",
-        "duration_seconds": 0.0010194778442382812,
-        "memory_used_mb": 0.00390625,
-        "cpu_percent": 0.0,
-        "success": true,
-        "function_name": "temizle",
-        "args_count": 1,
-        "kwargs_count": 0
-      },
-      {
-        "timestamp": "2025-08-18T08:21:48.117651",
-        "duration_seconds": 0.0017125606536865234,
-        "memory_used_mb": 0.0,
-        "cpu_percent": 36.35,
-        "success": true,
-        "function_name": "temizle",
-        "args_count": 1,
-        "kwargs_count": 0
-      },
-      {
-        "timestamp": "2025-08-18T08:21:48.118820",
-        "duration_seconds": 0.001169443130493164,
-        "memory_used_mb": 0.0,
-        "cpu_percent": 0.0,
-        "success": true,
-        "function_name": "temizle",
-        "args_count": 1,
-        "kwargs_count": 0
-      },
-      {
-        "timestamp": "2025-08-18T08:21:48.119724",
-        "duration_seconds": 0.0009038448333740234,
-        "memory_used_mb": 0.0,
-        "cpu_percent": 0.0,
-        "success": true,
-        "function_name": "temizle",
-        "args_count": 1,
-        "kwargs_count": 0
-      },
-      {
-        "timestamp": "2025-08-18T08:21:48.120949",
-        "duration_seconds": 0.0012247562408447266,
-        "memory_used_mb": 0.0,
-        "cpu_percent": 0.0,
-        "success": true,
-        "function_name": "temizle",
-        "args_count": 1,
-        "kwargs_count": 0
-      },
-      {
-        "timestamp": "2025-08-18T08:21:48.121947",
-        "duration_seconds": 0.000997304916381836,
-        "memory_used_mb": 0.0,
-        "cpu_percent": 0.0,
-        "success": true,
-        "function_name": "temizle",
-        "args_count": 1,
-        "kwargs_count": 0
-      },
-      {
-        "timestamp": "2025-08-18T08:21:48.123958",
-        "duration_seconds": 0.0010089874267578125,
-        "memory_used_mb": 0.0,
-        "cpu_percent": 0.0,
-        "success": true,
-        "function_name": "temizle",
-        "args_count": 1,
-        "kwargs_count": 0
-      },
-      {
-        "timestamp": "2025-08-18T08:21:48.124840",
-        "duration_seconds": 0.0008823871612548828,
-        "memory_used_mb": 0.0,
-        "cpu_percent": 0.0,
-        "success": true,
-        "function_name": "temizle",
-        "args_count": 1,
-        "kwargs_count": 0
-      },
-      {
-        "timestamp": "2025-08-18T08:21:48.126853",
-        "duration_seconds": 0.002012968063354492,
-        "memory_used_mb": 0.0,
-        "cpu_percent": 0.0,
-        "success": true,
-        "function_name": "temizle",
-        "args_count": 1,
-        "kwargs_count": 0
-      },
-      {
-        "timestamp": "2025-08-18T08:21:48.128984",
-        "duration_seconds": 0.002130746841430664,
-        "memory_used_mb": 0.0,
-        "cpu_percent": 0.0,
-        "success": true,
-        "function_name": "temizle",
-        "args_count": 1,
-        "kwargs_count": 0
-      },
-      {
-        "timestamp": "2025-08-18T08:21:48.130004",
-        "duration_seconds": 0.0010199546813964844,
-        "memory_used_mb": 0.0,
-        "cpu_percent": 0.0,
-        "success": true,
-        "function_name": "temizle",
-        "args_count": 1,
-        "kwargs_count": 0
-      },
-      {
-        "timestamp": "2025-08-18T08:21:48.132151",
-        "duration_seconds": 0.0,
-        "memory_used_mb": 0.0,
-        "cpu_percent": 0.0,
-        "success": true,
-        "function_name": "temizle",
-        "args_count": 1,
-        "kwargs_count": 0
-      },
-      {
-        "timestamp": "2025-08-18T08:21:48.133173",
-        "duration_seconds": 0.0010211467742919922,
-        "memory_used_mb": 0.0,
-        "cpu_percent": 50.0,
-        "success": true,
-        "function_name": "temizle",
-        "args_count": 1,
-        "kwargs_count": 0
-      },
-      {
-        "timestamp": "2025-08-18T08:21:48.135696",
-        "duration_seconds": 0.0015132427215576172,
-        "memory_used_mb": 0.0,
-        "cpu_percent": 0.0,
-        "success": true,
-        "function_name": "temizle",
-        "args_count": 1,
-        "kwargs_count": 0
-      },
-      {
-        "timestamp": "2025-08-18T08:21:48.137279",
-        "duration_seconds": 0.0015821456909179688,
-        "memory_used_mb": 0.0,
-        "cpu_percent": 0.0,
-        "success": true,
-        "function_name": "temizle",
-        "args_count": 1,
-        "kwargs_count": 0
-      },
-      {
-        "timestamp": "2025-08-18T08:21:48.139902",
-        "duration_seconds": 0.001422882080078125,
-        "memory_used_mb": 0.0,
-        "cpu_percent": 0.0,
-        "success": true,
-        "function_name": "temizle",
-        "args_count": 1,
-        "kwargs_count": 0
-      },
-      {
-        "timestamp": "2025-08-18T08:21:48.140907",
-        "duration_seconds": 0.0010046958923339844,
-        "memory_used_mb": 0.0,
-        "cpu_percent": 0.0,
-        "success": true,
-        "function_name": "temizle",
-        "args_count": 1,
-        "kwargs_count": 0
-      },
-      {
-        "timestamp": "2025-08-18T08:21:48.141901",
-        "duration_seconds": 0.000993967056274414,
-        "memory_used_mb": 0.00390625,
-        "cpu_percent": 0.0,
-        "success": true,
-        "function_name": "temizle",
-        "args_count": 1,
-        "kwargs_count": 0
-      },
-      {
-        "timestamp": "2025-08-18T08:21:48.143918",
-        "duration_seconds": 0.001010894775390625,
-        "memory_used_mb": 0.0,
-        "cpu_percent": 0.0,
-        "success": true,
-        "function_name": "temizle",
-        "args_count": 1,
-        "kwargs_count": 0
-      },
-      {
-        "timestamp": "2025-08-18T08:21:48.145801",
-        "duration_seconds": 0.0009822845458984375,
-        "memory_used_mb": 0.0,
-        "cpu_percent": 0.0,
-        "success": true,
-        "function_name": "temizle",
-        "args_count": 1,
-        "kwargs_count": 0
-      },
-      {
-        "timestamp": "2025-08-18T08:21:48.146808",
-        "duration_seconds": 0.0010066032409667969,
-        "memory_used_mb": 0.0,
-        "cpu_percent": 0.0,
-        "success": true,
-        "function_name": "temizle",
-        "args_count": 1,
-        "kwargs_count": 0
-      },
-      {
-        "timestamp": "2025-08-18T08:21:48.148818",
+        "timestamp": "2025-08-18T08:35:59.179098",
         "duration_seconds": 0.0010051727294921875,
         "memory_used_mb": 0.0,
         "cpu_percent": 0.0,
@@ -707,19 +157,19 @@
         "kwargs_count": 0
       },
       {
-        "timestamp": "2025-08-18T08:21:48.150812",
-        "duration_seconds": 0.0009913444519042969,
+        "timestamp": "2025-08-18T08:35:59.180077",
+        "duration_seconds": 0.0009794235229492188,
         "memory_used_mb": 0.0,
-        "cpu_percent": 41.65,
+        "cpu_percent": 22.75,
         "success": true,
         "function_name": "temizle",
         "args_count": 1,
         "kwargs_count": 0
       },
       {
-        "timestamp": "2025-08-18T08:21:48.152730",
-        "duration_seconds": 0.0019180774688720703,
-        "memory_used_mb": 0.0,
+        "timestamp": "2025-08-18T08:35:59.181081",
+        "duration_seconds": 0.0010035037994384766,
+        "memory_used_mb": 0.00390625,
         "cpu_percent": 0.0,
         "success": true,
         "function_name": "temizle",
@@ -727,257 +177,7 @@
         "kwargs_count": 0
       },
       {
-        "timestamp": "2025-08-18T08:21:48.185673",
-        "duration_seconds": 0.0010056495666503906,
-        "memory_used_mb": 0.0,
-        "cpu_percent": 0.0,
-        "success": true,
-        "function_name": "temizle",
-        "args_count": 1,
-        "kwargs_count": 0
-      },
-      {
-        "timestamp": "2025-08-18T08:21:48.191549",
-        "duration_seconds": 0.0010030269622802734,
-        "memory_used_mb": 0.0,
-        "cpu_percent": 0.0,
-        "success": true,
-        "function_name": "temizle",
-        "args_count": 1,
-        "kwargs_count": 0
-      },
-      {
-        "timestamp": "2025-08-18T08:21:48.198619",
-        "duration_seconds": 0.0015053749084472656,
-        "memory_used_mb": 0.0,
-        "cpu_percent": 0.0,
-        "success": true,
-        "function_name": "temizle",
-        "args_count": 1,
-        "kwargs_count": 0
-      },
-      {
-        "timestamp": "2025-08-18T08:21:48.203937",
-        "duration_seconds": 0.0010759830474853516,
-        "memory_used_mb": 0.0,
-        "cpu_percent": 0.0,
-        "success": true,
-        "function_name": "temizle",
-        "args_count": 1,
-        "kwargs_count": 0
-      },
-      {
-        "timestamp": "2025-08-18T08:21:48.208820",
-        "duration_seconds": 0.001863718032836914,
-        "memory_used_mb": 0.0,
-        "cpu_percent": 0.0,
-        "success": true,
-        "function_name": "temizle",
-        "args_count": 1,
-        "kwargs_count": 0
-      },
-      {
-        "timestamp": "2025-08-18T08:21:51.762171",
-        "duration_seconds": 0.002023458480834961,
-        "memory_used_mb": 0.0,
-        "cpu_percent": 0.0,
-        "success": true,
-        "function_name": "temizle",
-        "args_count": 1,
-        "kwargs_count": 0
-      },
-      {
-        "timestamp": "2025-08-18T08:21:51.764632",
-        "duration_seconds": 0.0014352798461914062,
-        "memory_used_mb": 0.0,
-        "cpu_percent": 0.0,
-        "success": true,
-        "function_name": "temizle",
-        "args_count": 1,
-        "kwargs_count": 0
-      },
-      {
-        "timestamp": "2025-08-18T08:21:51.765619",
-        "duration_seconds": 0.0009870529174804688,
-        "memory_used_mb": 0.0,
-        "cpu_percent": 0.0,
-        "success": true,
-        "function_name": "temizle",
-        "args_count": 1,
-        "kwargs_count": 0
-      },
-      {
-        "timestamp": "2025-08-18T08:21:51.767624",
-        "duration_seconds": 0.0009953975677490234,
-        "memory_used_mb": 0.0,
-        "cpu_percent": 0.0,
-        "success": true,
-        "function_name": "temizle",
-        "args_count": 1,
-        "kwargs_count": 0
-      },
-      {
-        "timestamp": "2025-08-18T08:21:51.768613",
-        "duration_seconds": 0.0009889602661132812,
-        "memory_used_mb": 0.0,
-        "cpu_percent": 0.0,
-        "success": true,
-        "function_name": "temizle",
-        "args_count": 1,
-        "kwargs_count": 0
-      },
-      {
-        "timestamp": "2025-08-18T08:21:51.769793",
-        "duration_seconds": 0.0011801719665527344,
-        "memory_used_mb": 0.0,
-        "cpu_percent": 0.0,
-        "success": true,
-        "function_name": "temizle",
-        "args_count": 1,
-        "kwargs_count": 0
-      },
-      {
-        "timestamp": "2025-08-18T08:21:51.771445",
-        "duration_seconds": 0.0016520023345947266,
-        "memory_used_mb": 0.0,
-        "cpu_percent": 0.0,
-        "success": true,
-        "function_name": "temizle",
-        "args_count": 1,
-        "kwargs_count": 0
-      },
-      {
-        "timestamp": "2025-08-18T08:21:51.773559",
-        "duration_seconds": 0.0021140575408935547,
-        "memory_used_mb": 0.0,
-        "cpu_percent": 28.55,
-        "success": true,
-        "function_name": "temizle",
-        "args_count": 1,
-        "kwargs_count": 0
-      },
-      {
-        "timestamp": "2025-08-18T08:21:51.775220",
-        "duration_seconds": 0.0016613006591796875,
-        "memory_used_mb": 0.0,
-        "cpu_percent": 0.0,
-        "success": true,
-        "function_name": "temizle",
-        "args_count": 1,
-        "kwargs_count": 0
-      },
-      {
-        "timestamp": "2025-08-18T08:21:51.777406",
-        "duration_seconds": 0.002185821533203125,
-        "memory_used_mb": 0.0,
-        "cpu_percent": 0.0,
-        "success": true,
-        "function_name": "temizle",
-        "args_count": 1,
-        "kwargs_count": 0
-      },
-      {
-        "timestamp": "2025-08-18T08:21:51.778419",
-        "duration_seconds": 0.001013040542602539,
-        "memory_used_mb": 0.0,
-        "cpu_percent": 0.0,
-        "success": true,
-        "function_name": "temizle",
-        "args_count": 1,
-        "kwargs_count": 0
-      },
-      {
-        "timestamp": "2025-08-18T08:21:51.779930",
-        "duration_seconds": 0.0015113353729248047,
-        "memory_used_mb": 0.0,
-        "cpu_percent": 0.0,
-        "success": true,
-        "function_name": "temizle",
-        "args_count": 1,
-        "kwargs_count": 0
-      },
-      {
-        "timestamp": "2025-08-18T08:21:51.781590",
-        "duration_seconds": 0.0016598701477050781,
-        "memory_used_mb": 0.0,
-        "cpu_percent": 0.0,
-        "success": true,
-        "function_name": "temizle",
-        "args_count": 1,
-        "kwargs_count": 0
-      },
-      {
-        "timestamp": "2025-08-18T08:21:51.783981",
-        "duration_seconds": 0.0023910999298095703,
-        "memory_used_mb": 0.0,
-        "cpu_percent": 0.0,
-        "success": true,
-        "function_name": "temizle",
-        "args_count": 1,
-        "kwargs_count": 0
-      },
-      {
-        "timestamp": "2025-08-18T08:21:51.785002",
-        "duration_seconds": 0.0010204315185546875,
-        "memory_used_mb": 0.0,
-        "cpu_percent": 0.0,
-        "success": true,
-        "function_name": "temizle",
-        "args_count": 1,
-        "kwargs_count": 0
-      },
-      {
-        "timestamp": "2025-08-18T08:21:51.786987",
-        "duration_seconds": 0.001985311508178711,
-        "memory_used_mb": 0.0,
-        "cpu_percent": 0.0,
-        "success": true,
-        "function_name": "temizle",
-        "args_count": 1,
-        "kwargs_count": 0
-      },
-      {
-        "timestamp": "2025-08-18T08:21:51.787985",
-        "duration_seconds": 0.0009980201721191406,
-        "memory_used_mb": 0.0,
-        "cpu_percent": 0.0,
-        "success": true,
-        "function_name": "temizle",
-        "args_count": 1,
-        "kwargs_count": 0
-      },
-      {
-        "timestamp": "2025-08-18T08:21:51.790016",
-        "duration_seconds": 0.0010063648223876953,
-        "memory_used_mb": 0.0,
-        "cpu_percent": 25.0,
-        "success": true,
-        "function_name": "temizle",
-        "args_count": 1,
-        "kwargs_count": 0
-      },
-      {
-        "timestamp": "2025-08-18T08:21:51.791239",
-        "duration_seconds": 0.0012238025665283203,
-        "memory_used_mb": 0.0,
-        "cpu_percent": 0.0,
-        "success": true,
-        "function_name": "temizle",
-        "args_count": 1,
-        "kwargs_count": 0
-      },
-      {
-        "timestamp": "2025-08-18T08:21:51.792910",
-        "duration_seconds": 0.0016705989837646484,
-        "memory_used_mb": 0.0,
-        "cpu_percent": 0.0,
-        "success": true,
-        "function_name": "temizle",
-        "args_count": 1,
-        "kwargs_count": 0
-      },
-      {
-        "timestamp": "2025-08-18T08:21:51.792910",
+        "timestamp": "2025-08-18T08:35:59.181081",
         "duration_seconds": 0.0,
         "memory_used_mb": 0.0,
         "cpu_percent": 0.0,
@@ -987,7 +187,7 @@
         "kwargs_count": 0
       },
       {
-        "timestamp": "2025-08-18T08:21:51.798343",
+        "timestamp": "2025-08-18T08:35:59.181081",
         "duration_seconds": 0.0,
         "memory_used_mb": 0.0,
         "cpu_percent": 0.0,
@@ -997,27 +197,7 @@
         "kwargs_count": 0
       },
       {
-        "timestamp": "2025-08-18T08:21:51.799353",
-        "duration_seconds": 0.0010099411010742188,
-        "memory_used_mb": 0.0,
-        "cpu_percent": 0.0,
-        "success": true,
-        "function_name": "temizle",
-        "args_count": 1,
-        "kwargs_count": 0
-      },
-      {
-        "timestamp": "2025-08-18T08:21:51.801780",
-        "duration_seconds": 0.002426624298095703,
-        "memory_used_mb": 0.0,
-        "cpu_percent": 0.0,
-        "success": true,
-        "function_name": "temizle",
-        "args_count": 1,
-        "kwargs_count": 0
-      },
-      {
-        "timestamp": "2025-08-18T08:21:51.801780",
+        "timestamp": "2025-08-18T08:35:59.181081",
         "duration_seconds": 0.0,
         "memory_used_mb": 0.0,
         "cpu_percent": 0.0,
@@ -1027,19 +207,9 @@
         "kwargs_count": 0
       },
       {
-        "timestamp": "2025-08-18T08:21:51.805344",
-        "duration_seconds": 0.003564119338989258,
-        "memory_used_mb": 0.0,
-        "cpu_percent": 25.0,
-        "success": true,
-        "function_name": "temizle",
-        "args_count": 1,
-        "kwargs_count": 0
-      },
-      {
-        "timestamp": "2025-08-18T08:21:51.807998",
-        "duration_seconds": 0.0026540756225585938,
-        "memory_used_mb": 0.0,
+        "timestamp": "2025-08-18T08:35:59.185166",
+        "duration_seconds": 0.0040853023529052734,
+        "memory_used_mb": 0.00390625,
         "cpu_percent": 0.0,
         "success": true,
         "function_name": "temizle",
@@ -1047,67 +217,7 @@
         "kwargs_count": 0
       },
       {
-        "timestamp": "2025-08-18T08:21:51.810016",
-        "duration_seconds": 0.0010144710540771484,
-        "memory_used_mb": 0.0,
-        "cpu_percent": 0.0,
-        "success": true,
-        "function_name": "temizle",
-        "args_count": 1,
-        "kwargs_count": 0
-      },
-      {
-        "timestamp": "2025-08-18T08:21:51.811242",
-        "duration_seconds": 0.0012264251708984375,
-        "memory_used_mb": 0.0,
-        "cpu_percent": 0.0,
-        "success": true,
-        "function_name": "temizle",
-        "args_count": 1,
-        "kwargs_count": 0
-      },
-      {
-        "timestamp": "2025-08-18T08:21:51.812243",
-        "duration_seconds": 0.0010013580322265625,
-        "memory_used_mb": 0.0,
-        "cpu_percent": 0.0,
-        "success": true,
-        "function_name": "temizle",
-        "args_count": 1,
-        "kwargs_count": 0
-      },
-      {
-        "timestamp": "2025-08-18T08:21:51.813253",
-        "duration_seconds": 0.0010094642639160156,
-        "memory_used_mb": 0.0,
-        "cpu_percent": 0.0,
-        "success": true,
-        "function_name": "temizle",
-        "args_count": 1,
-        "kwargs_count": 0
-      },
-      {
-        "timestamp": "2025-08-18T08:21:51.816274",
-        "duration_seconds": 0.0019948482513427734,
-        "memory_used_mb": 0.0,
-        "cpu_percent": 0.0,
-        "success": true,
-        "function_name": "temizle",
-        "args_count": 1,
-        "kwargs_count": 0
-      },
-      {
-        "timestamp": "2025-08-18T08:21:51.817172",
-        "duration_seconds": 0.0008974075317382812,
-        "memory_used_mb": 0.0,
-        "cpu_percent": 0.0,
-        "success": true,
-        "function_name": "temizle",
-        "args_count": 1,
-        "kwargs_count": 0
-      },
-      {
-        "timestamp": "2025-08-18T08:21:51.817172",
+        "timestamp": "2025-08-18T08:35:59.185166",
         "duration_seconds": 0.0,
         "memory_used_mb": 0.0,
         "cpu_percent": 0.0,
@@ -1117,8 +227,198 @@
         "kwargs_count": 0
       },
       {
-        "timestamp": "2025-08-18T08:21:51.820351",
-        "duration_seconds": 0.0010066032409667969,
+        "timestamp": "2025-08-18T08:35:59.185166",
+        "duration_seconds": 0.0,
+        "memory_used_mb": 0.0,
+        "cpu_percent": 0.0,
+        "success": true,
+        "function_name": "temizle",
+        "args_count": 1,
+        "kwargs_count": 0
+      },
+      {
+        "timestamp": "2025-08-18T08:35:59.185166",
+        "duration_seconds": 0.0,
+        "memory_used_mb": 0.0,
+        "cpu_percent": 0.0,
+        "success": true,
+        "function_name": "temizle",
+        "args_count": 1,
+        "kwargs_count": 0
+      },
+      {
+        "timestamp": "2025-08-18T08:35:59.185166",
+        "duration_seconds": 0.0,
+        "memory_used_mb": 0.0,
+        "cpu_percent": 0.0,
+        "success": true,
+        "function_name": "temizle",
+        "args_count": 1,
+        "kwargs_count": 0
+      },
+      {
+        "timestamp": "2025-08-18T08:35:59.185166",
+        "duration_seconds": 0.0,
+        "memory_used_mb": 0.0,
+        "cpu_percent": 0.0,
+        "success": true,
+        "function_name": "temizle",
+        "args_count": 1,
+        "kwargs_count": 0
+      },
+      {
+        "timestamp": "2025-08-18T08:35:59.185166",
+        "duration_seconds": 0.0,
+        "memory_used_mb": 0.0,
+        "cpu_percent": 0.0,
+        "success": true,
+        "function_name": "temizle",
+        "args_count": 1,
+        "kwargs_count": 0
+      },
+      {
+        "timestamp": "2025-08-18T08:35:59.195927",
+        "duration_seconds": 0.010760784149169922,
+        "memory_used_mb": 0.0,
+        "cpu_percent": 12.5,
+        "success": true,
+        "function_name": "temizle",
+        "args_count": 1,
+        "kwargs_count": 0
+      },
+      {
+        "timestamp": "2025-08-18T08:35:59.196959",
+        "duration_seconds": 0.0010318756103515625,
+        "memory_used_mb": 0.0,
+        "cpu_percent": 0.0,
+        "success": true,
+        "function_name": "temizle",
+        "args_count": 1,
+        "kwargs_count": 0
+      },
+      {
+        "timestamp": "2025-08-18T08:35:59.196959",
+        "duration_seconds": 0.0,
+        "memory_used_mb": 0.0,
+        "cpu_percent": 0.0,
+        "success": true,
+        "function_name": "temizle",
+        "args_count": 1,
+        "kwargs_count": 0
+      },
+      {
+        "timestamp": "2025-08-18T08:35:59.196959",
+        "duration_seconds": 0.0,
+        "memory_used_mb": 0.0,
+        "cpu_percent": 0.0,
+        "success": true,
+        "function_name": "temizle",
+        "args_count": 1,
+        "kwargs_count": 0
+      },
+      {
+        "timestamp": "2025-08-18T08:35:59.196959",
+        "duration_seconds": 0.0,
+        "memory_used_mb": 0.0,
+        "cpu_percent": 0.0,
+        "success": true,
+        "function_name": "temizle",
+        "args_count": 1,
+        "kwargs_count": 0
+      },
+      {
+        "timestamp": "2025-08-18T08:35:59.196959",
+        "duration_seconds": 0.0,
+        "memory_used_mb": 0.00390625,
+        "cpu_percent": 0.0,
+        "success": true,
+        "function_name": "temizle",
+        "args_count": 1,
+        "kwargs_count": 0
+      },
+      {
+        "timestamp": "2025-08-18T08:35:59.196959",
+        "duration_seconds": 0.0,
+        "memory_used_mb": 0.0,
+        "cpu_percent": 0.0,
+        "success": true,
+        "function_name": "temizle",
+        "args_count": 1,
+        "kwargs_count": 0
+      },
+      {
+        "timestamp": "2025-08-18T08:35:59.196959",
+        "duration_seconds": 0.0,
+        "memory_used_mb": 0.0,
+        "cpu_percent": 0.0,
+        "success": true,
+        "function_name": "temizle",
+        "args_count": 1,
+        "kwargs_count": 0
+      },
+      {
+        "timestamp": "2025-08-18T08:35:59.196959",
+        "duration_seconds": 0.0,
+        "memory_used_mb": 0.0,
+        "cpu_percent": 0.0,
+        "success": true,
+        "function_name": "temizle",
+        "args_count": 1,
+        "kwargs_count": 0
+      },
+      {
+        "timestamp": "2025-08-18T08:35:59.205834",
+        "duration_seconds": 0.008874893188476562,
+        "memory_used_mb": 0.0,
+        "cpu_percent": 0.0,
+        "success": true,
+        "function_name": "temizle",
+        "args_count": 1,
+        "kwargs_count": 0
+      },
+      {
+        "timestamp": "2025-08-18T08:35:59.205834",
+        "duration_seconds": 0.0,
+        "memory_used_mb": 0.0,
+        "cpu_percent": 0.0,
+        "success": true,
+        "function_name": "temizle",
+        "args_count": 1,
+        "kwargs_count": 0
+      },
+      {
+        "timestamp": "2025-08-18T08:35:59.205834",
+        "duration_seconds": 0.0,
+        "memory_used_mb": 0.00390625,
+        "cpu_percent": 0.0,
+        "success": true,
+        "function_name": "temizle",
+        "args_count": 1,
+        "kwargs_count": 0
+      },
+      {
+        "timestamp": "2025-08-18T08:35:59.205834",
+        "duration_seconds": 0.0,
+        "memory_used_mb": 0.0,
+        "cpu_percent": 0.0,
+        "success": true,
+        "function_name": "temizle",
+        "args_count": 1,
+        "kwargs_count": 0
+      },
+      {
+        "timestamp": "2025-08-18T08:35:59.205834",
+        "duration_seconds": 0.0,
+        "memory_used_mb": 0.0,
+        "cpu_percent": 0.0,
+        "success": true,
+        "function_name": "temizle",
+        "args_count": 1,
+        "kwargs_count": 0
+      },
+      {
+        "timestamp": "2025-08-18T08:35:59.205834",
+        "duration_seconds": 0.0,
         "memory_used_mb": 0.0,
         "cpu_percent": 50.0,
         "success": true,
@@ -1127,17 +427,7 @@
         "kwargs_count": 0
       },
       {
-        "timestamp": "2025-08-18T08:21:51.821969",
-        "duration_seconds": 0.0016181468963623047,
-        "memory_used_mb": 0.0,
-        "cpu_percent": 0.0,
-        "success": true,
-        "function_name": "temizle",
-        "args_count": 1,
-        "kwargs_count": 0
-      },
-      {
-        "timestamp": "2025-08-18T08:21:51.821969",
+        "timestamp": "2025-08-18T08:35:59.205834",
         "duration_seconds": 0.0,
         "memory_used_mb": 0.0,
         "cpu_percent": 0.0,
@@ -1147,7 +437,27 @@
         "kwargs_count": 0
       },
       {
-        "timestamp": "2025-08-18T08:21:51.821969",
+        "timestamp": "2025-08-18T08:35:59.213668",
+        "duration_seconds": 0.00783395767211914,
+        "memory_used_mb": 0.0,
+        "cpu_percent": 0.0,
+        "success": true,
+        "function_name": "temizle",
+        "args_count": 1,
+        "kwargs_count": 0
+      },
+      {
+        "timestamp": "2025-08-18T08:35:59.214202",
+        "duration_seconds": 0.0005340576171875,
+        "memory_used_mb": 0.0,
+        "cpu_percent": 0.0,
+        "success": true,
+        "function_name": "temizle",
+        "args_count": 1,
+        "kwargs_count": 0
+      },
+      {
+        "timestamp": "2025-08-18T08:35:59.214202",
         "duration_seconds": 0.0,
         "memory_used_mb": 0.0,
         "cpu_percent": 0.0,
@@ -1157,8 +467,8 @@
         "kwargs_count": 0
       },
       {
-        "timestamp": "2025-08-18T08:21:51.825892",
-        "duration_seconds": 0.003922462463378906,
+        "timestamp": "2025-08-18T08:35:59.216277",
+        "duration_seconds": 0.0020751953125,
         "memory_used_mb": 0.0,
         "cpu_percent": 0.0,
         "success": true,
@@ -1167,27 +477,7 @@
         "kwargs_count": 0
       },
       {
-        "timestamp": "2025-08-18T08:21:51.827270",
-        "duration_seconds": 0.0013782978057861328,
-        "memory_used_mb": 0.0,
-        "cpu_percent": 0.0,
-        "success": true,
-        "function_name": "temizle",
-        "args_count": 1,
-        "kwargs_count": 0
-      },
-      {
-        "timestamp": "2025-08-18T08:21:51.828438",
-        "duration_seconds": 0.0011680126190185547,
-        "memory_used_mb": 0.0,
-        "cpu_percent": 0.0,
-        "success": true,
-        "function_name": "temizle",
-        "args_count": 1,
-        "kwargs_count": 0
-      },
-      {
-        "timestamp": "2025-08-18T08:21:51.828438",
+        "timestamp": "2025-08-18T08:35:59.216277",
         "duration_seconds": 0.0,
         "memory_used_mb": 0.0,
         "cpu_percent": 0.0,
@@ -1197,97 +487,7 @@
         "kwargs_count": 0
       },
       {
-        "timestamp": "2025-08-18T08:21:51.832386",
-        "duration_seconds": 0.0039479732513427734,
-        "memory_used_mb": 0.0,
-        "cpu_percent": 0.0,
-        "success": true,
-        "function_name": "temizle",
-        "args_count": 1,
-        "kwargs_count": 0
-      },
-      {
-        "timestamp": "2025-08-18T08:21:51.833614",
-        "duration_seconds": 0.0012280941009521484,
-        "memory_used_mb": 0.0,
-        "cpu_percent": 0.0,
-        "success": true,
-        "function_name": "temizle",
-        "args_count": 1,
-        "kwargs_count": 0
-      },
-      {
-        "timestamp": "2025-08-18T08:21:51.834992",
-        "duration_seconds": 0.0013782978057861328,
-        "memory_used_mb": 0.0,
-        "cpu_percent": 0.0,
-        "success": true,
-        "function_name": "temizle",
-        "args_count": 1,
-        "kwargs_count": 0
-      },
-      {
-        "timestamp": "2025-08-18T08:21:51.836630",
-        "duration_seconds": 0.0016372203826904297,
-        "memory_used_mb": 0.0,
-        "cpu_percent": 16.65,
-        "success": true,
-        "function_name": "temizle",
-        "args_count": 1,
-        "kwargs_count": 0
-      },
-      {
-        "timestamp": "2025-08-18T08:21:51.838291",
-        "duration_seconds": 0.0016617774963378906,
-        "memory_used_mb": 0.0,
-        "cpu_percent": 0.0,
-        "success": true,
-        "function_name": "temizle",
-        "args_count": 1,
-        "kwargs_count": 0
-      },
-      {
-        "timestamp": "2025-08-18T08:21:51.839384",
-        "duration_seconds": 0.0010929107666015625,
-        "memory_used_mb": 0.0,
-        "cpu_percent": 0.0,
-        "success": true,
-        "function_name": "temizle",
-        "args_count": 1,
-        "kwargs_count": 0
-      },
-      {
-        "timestamp": "2025-08-18T08:21:51.841553",
-        "duration_seconds": 0.001291036605834961,
-        "memory_used_mb": 0.0,
-        "cpu_percent": 0.0,
-        "success": true,
-        "function_name": "temizle",
-        "args_count": 1,
-        "kwargs_count": 0
-      },
-      {
-        "timestamp": "2025-08-18T08:21:51.843190",
-        "duration_seconds": 0.0016367435455322266,
-        "memory_used_mb": 0.0,
-        "cpu_percent": 0.0,
-        "success": true,
-        "function_name": "temizle",
-        "args_count": 1,
-        "kwargs_count": 0
-      },
-      {
-        "timestamp": "2025-08-18T08:21:51.843847",
-        "duration_seconds": 0.0006575584411621094,
-        "memory_used_mb": 0.0,
-        "cpu_percent": 0.0,
-        "success": true,
-        "function_name": "temizle",
-        "args_count": 1,
-        "kwargs_count": 0
-      },
-      {
-        "timestamp": "2025-08-18T08:21:51.843847",
+        "timestamp": "2025-08-18T08:35:59.216277",
         "duration_seconds": 0.0,
         "memory_used_mb": 0.0,
         "cpu_percent": 0.0,
@@ -1297,7 +497,7 @@
         "kwargs_count": 0
       },
       {
-        "timestamp": "2025-08-18T08:21:51.843847",
+        "timestamp": "2025-08-18T08:35:59.216277",
         "duration_seconds": 0.0,
         "memory_used_mb": 0.0,
         "cpu_percent": 0.0,
@@ -1307,27 +507,7 @@
         "kwargs_count": 0
       },
       {
-        "timestamp": "2025-08-18T08:21:51.848053",
-        "duration_seconds": 0.004206180572509766,
-        "memory_used_mb": 0.0,
-        "cpu_percent": 0.0,
-        "success": true,
-        "function_name": "temizle",
-        "args_count": 1,
-        "kwargs_count": 0
-      },
-      {
-        "timestamp": "2025-08-18T08:21:51.848648",
-        "duration_seconds": 0.0005943775177001953,
-        "memory_used_mb": 0.0,
-        "cpu_percent": 0.0,
-        "success": true,
-        "function_name": "temizle",
-        "args_count": 1,
-        "kwargs_count": 0
-      },
-      {
-        "timestamp": "2025-08-18T08:21:51.848648",
+        "timestamp": "2025-08-18T08:35:59.216277",
         "duration_seconds": 0.0,
         "memory_used_mb": 0.0,
         "cpu_percent": 0.0,
@@ -1337,7 +517,47 @@
         "kwargs_count": 0
       },
       {
-        "timestamp": "2025-08-18T08:21:51.848648",
+        "timestamp": "2025-08-18T08:35:59.216277",
+        "duration_seconds": 0.0,
+        "memory_used_mb": 0.0,
+        "cpu_percent": 0.0,
+        "success": true,
+        "function_name": "temizle",
+        "args_count": 1,
+        "kwargs_count": 0
+      },
+      {
+        "timestamp": "2025-08-18T08:35:59.216277",
+        "duration_seconds": 0.0,
+        "memory_used_mb": 0.0,
+        "cpu_percent": 0.0,
+        "success": true,
+        "function_name": "temizle",
+        "args_count": 1,
+        "kwargs_count": 0
+      },
+      {
+        "timestamp": "2025-08-18T08:35:59.216277",
+        "duration_seconds": 0.0,
+        "memory_used_mb": 0.0,
+        "cpu_percent": 0.0,
+        "success": true,
+        "function_name": "temizle",
+        "args_count": 1,
+        "kwargs_count": 0
+      },
+      {
+        "timestamp": "2025-08-18T08:35:59.226402",
+        "duration_seconds": 0.010124921798706055,
+        "memory_used_mb": 0.0,
+        "cpu_percent": 0.0,
+        "success": true,
+        "function_name": "temizle",
+        "args_count": 1,
+        "kwargs_count": 0
+      },
+      {
+        "timestamp": "2025-08-18T08:35:59.226402",
         "duration_seconds": 0.0,
         "memory_used_mb": 0.0,
         "cpu_percent": 16.65,
@@ -1347,37 +567,7 @@
         "kwargs_count": 0
       },
       {
-        "timestamp": "2025-08-18T08:21:51.854039",
-        "duration_seconds": 0.00539088249206543,
-        "memory_used_mb": 0.0,
-        "cpu_percent": 0.0,
-        "success": true,
-        "function_name": "temizle",
-        "args_count": 1,
-        "kwargs_count": 0
-      },
-      {
-        "timestamp": "2025-08-18T08:21:51.855438",
-        "duration_seconds": 0.0013990402221679688,
-        "memory_used_mb": 0.0,
-        "cpu_percent": 0.0,
-        "success": true,
-        "function_name": "temizle",
-        "args_count": 1,
-        "kwargs_count": 0
-      },
-      {
-        "timestamp": "2025-08-18T08:21:51.856030",
-        "duration_seconds": 0.0005922317504882812,
-        "memory_used_mb": 0.0,
-        "cpu_percent": 0.0,
-        "success": true,
-        "function_name": "temizle",
-        "args_count": 1,
-        "kwargs_count": 0
-      },
-      {
-        "timestamp": "2025-08-18T08:21:51.856030",
+        "timestamp": "2025-08-18T08:35:59.226402",
         "duration_seconds": 0.0,
         "memory_used_mb": 0.0,
         "cpu_percent": 0.0,
@@ -1387,7 +577,17 @@
         "kwargs_count": 0
       },
       {
-        "timestamp": "2025-08-18T08:21:51.856030",
+        "timestamp": "2025-08-18T08:35:59.229569",
+        "duration_seconds": 0.003167390823364258,
+        "memory_used_mb": 0.0,
+        "cpu_percent": 0.0,
+        "success": true,
+        "function_name": "temizle",
+        "args_count": 1,
+        "kwargs_count": 0
+      },
+      {
+        "timestamp": "2025-08-18T08:35:59.229569",
         "duration_seconds": 0.0,
         "memory_used_mb": 0.0,
         "cpu_percent": 0.0,
@@ -1397,47 +597,7 @@
         "kwargs_count": 0
       },
       {
-        "timestamp": "2025-08-18T08:21:51.859828",
-        "duration_seconds": 0.003797769546508789,
-        "memory_used_mb": 0.0,
-        "cpu_percent": 0.0,
-        "success": true,
-        "function_name": "temizle",
-        "args_count": 1,
-        "kwargs_count": 0
-      },
-      {
-        "timestamp": "2025-08-18T08:21:51.860927",
-        "duration_seconds": 0.0010993480682373047,
-        "memory_used_mb": 0.0,
-        "cpu_percent": 0.0,
-        "success": true,
-        "function_name": "temizle",
-        "args_count": 1,
-        "kwargs_count": 0
-      },
-      {
-        "timestamp": "2025-08-18T08:21:51.862969",
-        "duration_seconds": 0.0013492107391357422,
-        "memory_used_mb": 0.0,
-        "cpu_percent": 0.0,
-        "success": true,
-        "function_name": "temizle",
-        "args_count": 1,
-        "kwargs_count": 0
-      },
-      {
-        "timestamp": "2025-08-18T08:21:51.863481",
-        "duration_seconds": 0.0005116462707519531,
-        "memory_used_mb": 0.0,
-        "cpu_percent": 0.0,
-        "success": true,
-        "function_name": "temizle",
-        "args_count": 1,
-        "kwargs_count": 0
-      },
-      {
-        "timestamp": "2025-08-18T08:21:51.863481",
+        "timestamp": "2025-08-18T08:35:59.229569",
         "duration_seconds": 0.0,
         "memory_used_mb": 0.0,
         "cpu_percent": 0.0,
@@ -1447,8 +607,8 @@
         "kwargs_count": 0
       },
       {
-        "timestamp": "2025-08-18T08:21:51.866840",
-        "duration_seconds": 0.003358602523803711,
+        "timestamp": "2025-08-18T08:35:59.229569",
+        "duration_seconds": 0.0,
         "memory_used_mb": 0.0,
         "cpu_percent": 0.0,
         "success": true,
@@ -1457,18 +617,8 @@
         "kwargs_count": 0
       },
       {
-        "timestamp": "2025-08-18T08:21:51.868928",
-        "duration_seconds": 0.0010814666748046875,
-        "memory_used_mb": 0.0,
-        "cpu_percent": 18.75,
-        "success": true,
-        "function_name": "temizle",
-        "args_count": 1,
-        "kwargs_count": 0
-      },
-      {
-        "timestamp": "2025-08-18T08:21:51.869935",
-        "duration_seconds": 0.0010073184967041016,
+        "timestamp": "2025-08-18T08:35:59.229569",
+        "duration_seconds": 0.0,
         "memory_used_mb": 0.0,
         "cpu_percent": 0.0,
         "success": true,
@@ -1477,8 +627,8 @@
         "kwargs_count": 0
       },
       {
-        "timestamp": "2025-08-18T08:21:51.897580",
-        "duration_seconds": 0.0010097026824951172,
+        "timestamp": "2025-08-18T08:35:59.229569",
+        "duration_seconds": 0.0,
         "memory_used_mb": 0.0,
         "cpu_percent": 0.0,
         "success": true,
@@ -1487,10 +637,860 @@
         "kwargs_count": 0
       },
       {
-        "timestamp": "2025-08-18T08:21:51.925421",
-        "duration_seconds": 0.00726318359375,
+        "timestamp": "2025-08-18T08:35:59.229569",
+        "duration_seconds": 0.0,
+        "memory_used_mb": 0.00390625,
+        "cpu_percent": 0.0,
+        "success": true,
+        "function_name": "temizle",
+        "args_count": 1,
+        "kwargs_count": 0
+      },
+      {
+        "timestamp": "2025-08-18T08:35:59.236667",
+        "duration_seconds": 0.0070972442626953125,
+        "memory_used_mb": 0.0,
+        "cpu_percent": 0.0,
+        "success": true,
+        "function_name": "temizle",
+        "args_count": 1,
+        "kwargs_count": 0
+      },
+      {
+        "timestamp": "2025-08-18T08:35:59.236667",
+        "duration_seconds": 0.0,
+        "memory_used_mb": 0.00390625,
+        "cpu_percent": 0.0,
+        "success": true,
+        "function_name": "temizle",
+        "args_count": 1,
+        "kwargs_count": 0
+      },
+      {
+        "timestamp": "2025-08-18T08:35:59.238751",
+        "duration_seconds": 0.0020847320556640625,
+        "memory_used_mb": 0.0,
+        "cpu_percent": 0.0,
+        "success": true,
+        "function_name": "temizle",
+        "args_count": 1,
+        "kwargs_count": 0
+      },
+      {
+        "timestamp": "2025-08-18T08:35:59.238751",
+        "duration_seconds": 0.0,
+        "memory_used_mb": 0.0,
+        "cpu_percent": 0.0,
+        "success": true,
+        "function_name": "temizle",
+        "args_count": 1,
+        "kwargs_count": 0
+      },
+      {
+        "timestamp": "2025-08-18T08:35:59.238751",
+        "duration_seconds": 0.0,
+        "memory_used_mb": 0.0,
+        "cpu_percent": 0.0,
+        "success": true,
+        "function_name": "temizle",
+        "args_count": 1,
+        "kwargs_count": 0
+      },
+      {
+        "timestamp": "2025-08-18T08:35:59.238751",
+        "duration_seconds": 0.0,
+        "memory_used_mb": 0.0,
+        "cpu_percent": 0.0,
+        "success": true,
+        "function_name": "temizle",
+        "args_count": 1,
+        "kwargs_count": 0
+      },
+      {
+        "timestamp": "2025-08-18T08:35:59.238751",
+        "duration_seconds": 0.0,
+        "memory_used_mb": 0.0,
+        "cpu_percent": 25.0,
+        "success": true,
+        "function_name": "temizle",
+        "args_count": 1,
+        "kwargs_count": 0
+      },
+      {
+        "timestamp": "2025-08-18T08:35:59.238751",
+        "duration_seconds": 0.0,
+        "memory_used_mb": 0.0,
+        "cpu_percent": 0.0,
+        "success": true,
+        "function_name": "temizle",
+        "args_count": 1,
+        "kwargs_count": 0
+      },
+      {
+        "timestamp": "2025-08-18T08:35:59.261445",
+        "duration_seconds": 0.0,
+        "memory_used_mb": 0.0,
+        "cpu_percent": 0.0,
+        "success": true,
+        "function_name": "temizle",
+        "args_count": 1,
+        "kwargs_count": 0
+      },
+      {
+        "timestamp": "2025-08-18T08:35:59.261445",
+        "duration_seconds": 0.0,
+        "memory_used_mb": 0.0,
+        "cpu_percent": 0.0,
+        "success": true,
+        "function_name": "temizle",
+        "args_count": 1,
+        "kwargs_count": 0
+      },
+      {
+        "timestamp": "2025-08-18T08:35:59.267545",
+        "duration_seconds": 0.006100654602050781,
+        "memory_used_mb": 0.0,
+        "cpu_percent": 0.0,
+        "success": true,
+        "function_name": "temizle",
+        "args_count": 1,
+        "kwargs_count": 0
+      },
+      {
+        "timestamp": "2025-08-18T08:35:59.267545",
+        "duration_seconds": 0.0,
+        "memory_used_mb": 0.0,
+        "cpu_percent": 0.0,
+        "success": true,
+        "function_name": "temizle",
+        "args_count": 1,
+        "kwargs_count": 0
+      },
+      {
+        "timestamp": "2025-08-18T08:35:59.267545",
+        "duration_seconds": 0.0,
+        "memory_used_mb": 0.0,
+        "cpu_percent": 0.0,
+        "success": true,
+        "function_name": "temizle",
+        "args_count": 1,
+        "kwargs_count": 0
+      },
+      {
+        "timestamp": "2025-08-18T08:36:01.620557",
+        "duration_seconds": 0.0,
+        "memory_used_mb": 0.0,
+        "cpu_percent": 0.0,
+        "success": true,
+        "function_name": "temizle",
+        "args_count": 1,
+        "kwargs_count": 0
+      },
+      {
+        "timestamp": "2025-08-18T08:36:01.620557",
+        "duration_seconds": 0.0,
+        "memory_used_mb": 0.0,
+        "cpu_percent": 0.0,
+        "success": true,
+        "function_name": "temizle",
+        "args_count": 1,
+        "kwargs_count": 0
+      },
+      {
+        "timestamp": "2025-08-18T08:36:01.620557",
+        "duration_seconds": 0.0,
+        "memory_used_mb": 0.0,
+        "cpu_percent": 0.0,
+        "success": true,
+        "function_name": "temizle",
+        "args_count": 1,
+        "kwargs_count": 0
+      },
+      {
+        "timestamp": "2025-08-18T08:36:01.620557",
+        "duration_seconds": 0.0,
+        "memory_used_mb": 0.0,
+        "cpu_percent": 0.0,
+        "success": true,
+        "function_name": "temizle",
+        "args_count": 1,
+        "kwargs_count": 0
+      },
+      {
+        "timestamp": "2025-08-18T08:36:01.620557",
+        "duration_seconds": 0.0,
+        "memory_used_mb": 0.0,
+        "cpu_percent": 0.0,
+        "success": true,
+        "function_name": "temizle",
+        "args_count": 1,
+        "kwargs_count": 0
+      },
+      {
+        "timestamp": "2025-08-18T08:36:01.620557",
+        "duration_seconds": 0.0,
+        "memory_used_mb": 0.0,
+        "cpu_percent": 0.0,
+        "success": true,
+        "function_name": "temizle",
+        "args_count": 1,
+        "kwargs_count": 0
+      },
+      {
+        "timestamp": "2025-08-18T08:36:01.620557",
+        "duration_seconds": 0.0,
+        "memory_used_mb": 0.0,
+        "cpu_percent": 0.0,
+        "success": true,
+        "function_name": "temizle",
+        "args_count": 1,
+        "kwargs_count": 0
+      },
+      {
+        "timestamp": "2025-08-18T08:36:01.620557",
+        "duration_seconds": 0.0,
+        "memory_used_mb": 0.0,
+        "cpu_percent": 0.0,
+        "success": true,
+        "function_name": "temizle",
+        "args_count": 1,
+        "kwargs_count": 0
+      },
+      {
+        "timestamp": "2025-08-18T08:36:01.631052",
+        "duration_seconds": 0.010495424270629883,
+        "memory_used_mb": 0.00390625,
+        "cpu_percent": 0.0,
+        "success": true,
+        "function_name": "temizle",
+        "args_count": 1,
+        "kwargs_count": 0
+      },
+      {
+        "timestamp": "2025-08-18T08:36:01.631052",
+        "duration_seconds": 0.0,
+        "memory_used_mb": 0.0,
+        "cpu_percent": 0.0,
+        "success": true,
+        "function_name": "temizle",
+        "args_count": 1,
+        "kwargs_count": 0
+      },
+      {
+        "timestamp": "2025-08-18T08:36:01.631052",
+        "duration_seconds": 0.0,
+        "memory_used_mb": 0.0,
+        "cpu_percent": 50.0,
+        "success": true,
+        "function_name": "temizle",
+        "args_count": 1,
+        "kwargs_count": 0
+      },
+      {
+        "timestamp": "2025-08-18T08:36:01.631052",
+        "duration_seconds": 0.0,
+        "memory_used_mb": 0.0,
+        "cpu_percent": 0.0,
+        "success": true,
+        "function_name": "temizle",
+        "args_count": 1,
+        "kwargs_count": 0
+      },
+      {
+        "timestamp": "2025-08-18T08:36:01.635082",
+        "duration_seconds": 0.004029989242553711,
+        "memory_used_mb": 0.0,
+        "cpu_percent": 0.0,
+        "success": true,
+        "function_name": "temizle",
+        "args_count": 1,
+        "kwargs_count": 0
+      },
+      {
+        "timestamp": "2025-08-18T08:36:01.635082",
+        "duration_seconds": 0.0,
+        "memory_used_mb": 0.0,
+        "cpu_percent": 0.0,
+        "success": true,
+        "function_name": "temizle",
+        "args_count": 1,
+        "kwargs_count": 0
+      },
+      {
+        "timestamp": "2025-08-18T08:36:01.635082",
+        "duration_seconds": 0.0,
+        "memory_used_mb": 0.0,
+        "cpu_percent": 0.0,
+        "success": true,
+        "function_name": "temizle",
+        "args_count": 1,
+        "kwargs_count": 0
+      },
+      {
+        "timestamp": "2025-08-18T08:36:01.635082",
+        "duration_seconds": 0.0,
+        "memory_used_mb": 0.0,
+        "cpu_percent": 0.0,
+        "success": true,
+        "function_name": "temizle",
+        "args_count": 1,
+        "kwargs_count": 0
+      },
+      {
+        "timestamp": "2025-08-18T08:36:01.635082",
+        "duration_seconds": 0.0,
+        "memory_used_mb": 0.0,
+        "cpu_percent": 0.0,
+        "success": true,
+        "function_name": "temizle",
+        "args_count": 1,
+        "kwargs_count": 0
+      },
+      {
+        "timestamp": "2025-08-18T08:36:01.641373",
+        "duration_seconds": 0.00629115104675293,
+        "memory_used_mb": 0.0,
+        "cpu_percent": 0.0,
+        "success": true,
+        "function_name": "temizle",
+        "args_count": 1,
+        "kwargs_count": 0
+      },
+      {
+        "timestamp": "2025-08-18T08:36:01.641373",
+        "duration_seconds": 0.0,
+        "memory_used_mb": 0.0,
+        "cpu_percent": 0.0,
+        "success": true,
+        "function_name": "temizle",
+        "args_count": 1,
+        "kwargs_count": 0
+      },
+      {
+        "timestamp": "2025-08-18T08:36:01.642996",
+        "duration_seconds": 0.0016231536865234375,
+        "memory_used_mb": 0.0,
+        "cpu_percent": 0.0,
+        "success": true,
+        "function_name": "temizle",
+        "args_count": 1,
+        "kwargs_count": 0
+      },
+      {
+        "timestamp": "2025-08-18T08:36:01.642996",
+        "duration_seconds": 0.0,
+        "memory_used_mb": 0.0,
+        "cpu_percent": 0.0,
+        "success": true,
+        "function_name": "temizle",
+        "args_count": 1,
+        "kwargs_count": 0
+      },
+      {
+        "timestamp": "2025-08-18T08:36:01.645527",
+        "duration_seconds": 0.0025310516357421875,
+        "memory_used_mb": 0.0,
+        "cpu_percent": 0.0,
+        "success": true,
+        "function_name": "temizle",
+        "args_count": 1,
+        "kwargs_count": 0
+      },
+      {
+        "timestamp": "2025-08-18T08:36:01.645527",
+        "duration_seconds": 0.0,
+        "memory_used_mb": 0.0,
+        "cpu_percent": 0.0,
+        "success": true,
+        "function_name": "temizle",
+        "args_count": 1,
+        "kwargs_count": 0
+      },
+      {
+        "timestamp": "2025-08-18T08:36:01.645527",
+        "duration_seconds": 0.0,
         "memory_used_mb": 0.0,
         "cpu_percent": 30.0,
+        "success": true,
+        "function_name": "temizle",
+        "args_count": 1,
+        "kwargs_count": 0
+      },
+      {
+        "timestamp": "2025-08-18T08:36:01.650825",
+        "duration_seconds": 0.005297660827636719,
+        "memory_used_mb": 0.0,
+        "cpu_percent": 0.0,
+        "success": true,
+        "function_name": "temizle",
+        "args_count": 1,
+        "kwargs_count": 0
+      },
+      {
+        "timestamp": "2025-08-18T08:36:01.651838",
+        "duration_seconds": 0.0010128021240234375,
+        "memory_used_mb": 0.0,
+        "cpu_percent": 0.0,
+        "success": true,
+        "function_name": "temizle",
+        "args_count": 1,
+        "kwargs_count": 0
+      },
+      {
+        "timestamp": "2025-08-18T08:36:01.651838",
+        "duration_seconds": 0.0,
+        "memory_used_mb": 0.0,
+        "cpu_percent": 0.0,
+        "success": true,
+        "function_name": "temizle",
+        "args_count": 1,
+        "kwargs_count": 0
+      },
+      {
+        "timestamp": "2025-08-18T08:36:01.651838",
+        "duration_seconds": 0.0,
+        "memory_used_mb": 0.0,
+        "cpu_percent": 0.0,
+        "success": true,
+        "function_name": "temizle",
+        "args_count": 1,
+        "kwargs_count": 0
+      },
+      {
+        "timestamp": "2025-08-18T08:36:01.651838",
+        "duration_seconds": 0.0,
+        "memory_used_mb": 0.0,
+        "cpu_percent": 0.0,
+        "success": true,
+        "function_name": "temizle",
+        "args_count": 1,
+        "kwargs_count": 0
+      },
+      {
+        "timestamp": "2025-08-18T08:36:01.651838",
+        "duration_seconds": 0.0,
+        "memory_used_mb": 0.0,
+        "cpu_percent": 0.0,
+        "success": true,
+        "function_name": "temizle",
+        "args_count": 1,
+        "kwargs_count": 0
+      },
+      {
+        "timestamp": "2025-08-18T08:36:01.651838",
+        "duration_seconds": 0.0,
+        "memory_used_mb": 0.0,
+        "cpu_percent": 0.0,
+        "success": true,
+        "function_name": "temizle",
+        "args_count": 1,
+        "kwargs_count": 0
+      },
+      {
+        "timestamp": "2025-08-18T08:36:01.651838",
+        "duration_seconds": 0.0,
+        "memory_used_mb": 0.0,
+        "cpu_percent": 0.0,
+        "success": true,
+        "function_name": "temizle",
+        "args_count": 1,
+        "kwargs_count": 0
+      },
+      {
+        "timestamp": "2025-08-18T08:36:01.651838",
+        "duration_seconds": 0.0,
+        "memory_used_mb": 0.0,
+        "cpu_percent": 0.0,
+        "success": true,
+        "function_name": "temizle",
+        "args_count": 1,
+        "kwargs_count": 0
+      },
+      {
+        "timestamp": "2025-08-18T08:36:01.651838",
+        "duration_seconds": 0.0,
+        "memory_used_mb": 0.0,
+        "cpu_percent": 0.0,
+        "success": true,
+        "function_name": "temizle",
+        "args_count": 1,
+        "kwargs_count": 0
+      },
+      {
+        "timestamp": "2025-08-18T08:36:01.662235",
+        "duration_seconds": 0.010397672653198242,
+        "memory_used_mb": 0.0,
+        "cpu_percent": 0.0,
+        "success": true,
+        "function_name": "temizle",
+        "args_count": 1,
+        "kwargs_count": 0
+      },
+      {
+        "timestamp": "2025-08-18T08:36:01.662235",
+        "duration_seconds": 0.0,
+        "memory_used_mb": 0.0,
+        "cpu_percent": 0.0,
+        "success": true,
+        "function_name": "temizle",
+        "args_count": 1,
+        "kwargs_count": 0
+      },
+      {
+        "timestamp": "2025-08-18T08:36:01.662235",
+        "duration_seconds": 0.0,
+        "memory_used_mb": 0.0,
+        "cpu_percent": 50.0,
+        "success": true,
+        "function_name": "temizle",
+        "args_count": 1,
+        "kwargs_count": 0
+      },
+      {
+        "timestamp": "2025-08-18T08:36:01.662235",
+        "duration_seconds": 0.0,
+        "memory_used_mb": 0.0,
+        "cpu_percent": 0.0,
+        "success": true,
+        "function_name": "temizle",
+        "args_count": 1,
+        "kwargs_count": 0
+      },
+      {
+        "timestamp": "2025-08-18T08:36:01.666882",
+        "duration_seconds": 0.0,
+        "memory_used_mb": 0.0,
+        "cpu_percent": 0.0,
+        "success": true,
+        "function_name": "temizle",
+        "args_count": 1,
+        "kwargs_count": 0
+      },
+      {
+        "timestamp": "2025-08-18T08:36:01.666882",
+        "duration_seconds": 0.0,
+        "memory_used_mb": 0.0,
+        "cpu_percent": 0.0,
+        "success": true,
+        "function_name": "temizle",
+        "args_count": 1,
+        "kwargs_count": 0
+      },
+      {
+        "timestamp": "2025-08-18T08:36:01.666882",
+        "duration_seconds": 0.0,
+        "memory_used_mb": 0.0,
+        "cpu_percent": 0.0,
+        "success": true,
+        "function_name": "temizle",
+        "args_count": 1,
+        "kwargs_count": 0
+      },
+      {
+        "timestamp": "2025-08-18T08:36:01.666882",
+        "duration_seconds": 0.0,
+        "memory_used_mb": 0.0,
+        "cpu_percent": 0.0,
+        "success": true,
+        "function_name": "temizle",
+        "args_count": 1,
+        "kwargs_count": 0
+      },
+      {
+        "timestamp": "2025-08-18T08:36:01.666882",
+        "duration_seconds": 0.0,
+        "memory_used_mb": 0.0,
+        "cpu_percent": 0.0,
+        "success": true,
+        "function_name": "temizle",
+        "args_count": 1,
+        "kwargs_count": 0
+      },
+      {
+        "timestamp": "2025-08-18T08:36:01.672450",
+        "duration_seconds": 0.005567789077758789,
+        "memory_used_mb": 0.0,
+        "cpu_percent": 0.0,
+        "success": true,
+        "function_name": "temizle",
+        "args_count": 1,
+        "kwargs_count": 0
+      },
+      {
+        "timestamp": "2025-08-18T08:36:01.672450",
+        "duration_seconds": 0.0,
+        "memory_used_mb": 0.0,
+        "cpu_percent": 0.0,
+        "success": true,
+        "function_name": "temizle",
+        "args_count": 1,
+        "kwargs_count": 0
+      },
+      {
+        "timestamp": "2025-08-18T08:36:01.672450",
+        "duration_seconds": 0.0,
+        "memory_used_mb": 0.0,
+        "cpu_percent": 0.0,
+        "success": true,
+        "function_name": "temizle",
+        "args_count": 1,
+        "kwargs_count": 0
+      },
+      {
+        "timestamp": "2025-08-18T08:36:01.672450",
+        "duration_seconds": 0.0,
+        "memory_used_mb": 0.0,
+        "cpu_percent": 0.0,
+        "success": true,
+        "function_name": "temizle",
+        "args_count": 1,
+        "kwargs_count": 0
+      },
+      {
+        "timestamp": "2025-08-18T08:36:01.677077",
+        "duration_seconds": 0.004627227783203125,
+        "memory_used_mb": 0.0,
+        "cpu_percent": 0.0,
+        "success": true,
+        "function_name": "temizle",
+        "args_count": 1,
+        "kwargs_count": 0
+      },
+      {
+        "timestamp": "2025-08-18T08:36:01.677077",
+        "duration_seconds": 0.0,
+        "memory_used_mb": 0.0,
+        "cpu_percent": 0.0,
+        "success": true,
+        "function_name": "temizle",
+        "args_count": 1,
+        "kwargs_count": 0
+      },
+      {
+        "timestamp": "2025-08-18T08:36:01.677077",
+        "duration_seconds": 0.0,
+        "memory_used_mb": 0.0,
+        "cpu_percent": 0.0,
+        "success": true,
+        "function_name": "temizle",
+        "args_count": 1,
+        "kwargs_count": 0
+      },
+      {
+        "timestamp": "2025-08-18T08:36:01.677077",
+        "duration_seconds": 0.0,
+        "memory_used_mb": 0.0,
+        "cpu_percent": 25.0,
+        "success": true,
+        "function_name": "temizle",
+        "args_count": 1,
+        "kwargs_count": 0
+      },
+      {
+        "timestamp": "2025-08-18T08:36:01.677077",
+        "duration_seconds": 0.0,
+        "memory_used_mb": 0.0,
+        "cpu_percent": 0.0,
+        "success": true,
+        "function_name": "temizle",
+        "args_count": 1,
+        "kwargs_count": 0
+      },
+      {
+        "timestamp": "2025-08-18T08:36:01.682595",
+        "duration_seconds": 0.005517244338989258,
+        "memory_used_mb": 0.0,
+        "cpu_percent": 0.0,
+        "success": true,
+        "function_name": "temizle",
+        "args_count": 1,
+        "kwargs_count": 0
+      },
+      {
+        "timestamp": "2025-08-18T08:36:01.682595",
+        "duration_seconds": 0.0,
+        "memory_used_mb": 0.0,
+        "cpu_percent": 0.0,
+        "success": true,
+        "function_name": "temizle",
+        "args_count": 1,
+        "kwargs_count": 0
+      },
+      {
+        "timestamp": "2025-08-18T08:36:01.682595",
+        "duration_seconds": 0.0,
+        "memory_used_mb": 0.0,
+        "cpu_percent": 0.0,
+        "success": true,
+        "function_name": "temizle",
+        "args_count": 1,
+        "kwargs_count": 0
+      },
+      {
+        "timestamp": "2025-08-18T08:36:01.682595",
+        "duration_seconds": 0.0,
+        "memory_used_mb": 0.0,
+        "cpu_percent": 0.0,
+        "success": true,
+        "function_name": "temizle",
+        "args_count": 1,
+        "kwargs_count": 0
+      },
+      {
+        "timestamp": "2025-08-18T08:36:01.682595",
+        "duration_seconds": 0.0,
+        "memory_used_mb": 0.0,
+        "cpu_percent": 0.0,
+        "success": true,
+        "function_name": "temizle",
+        "args_count": 1,
+        "kwargs_count": 0
+      },
+      {
+        "timestamp": "2025-08-18T08:36:01.682595",
+        "duration_seconds": 0.0,
+        "memory_used_mb": 0.0,
+        "cpu_percent": 0.0,
+        "success": true,
+        "function_name": "temizle",
+        "args_count": 1,
+        "kwargs_count": 0
+      },
+      {
+        "timestamp": "2025-08-18T08:36:01.682595",
+        "duration_seconds": 0.0,
+        "memory_used_mb": 0.0,
+        "cpu_percent": 0.0,
+        "success": true,
+        "function_name": "temizle",
+        "args_count": 1,
+        "kwargs_count": 0
+      },
+      {
+        "timestamp": "2025-08-18T08:36:01.682595",
+        "duration_seconds": 0.0,
+        "memory_used_mb": 0.0,
+        "cpu_percent": 0.0,
+        "success": true,
+        "function_name": "temizle",
+        "args_count": 1,
+        "kwargs_count": 0
+      },
+      {
+        "timestamp": "2025-08-18T08:36:01.682595",
+        "duration_seconds": 0.0,
+        "memory_used_mb": 0.0,
+        "cpu_percent": 0.0,
+        "success": true,
+        "function_name": "temizle",
+        "args_count": 1,
+        "kwargs_count": 0
+      },
+      {
+        "timestamp": "2025-08-18T08:36:01.682595",
+        "duration_seconds": 0.0,
+        "memory_used_mb": 0.0,
+        "cpu_percent": 0.0,
+        "success": true,
+        "function_name": "temizle",
+        "args_count": 1,
+        "kwargs_count": 0
+      },
+      {
+        "timestamp": "2025-08-18T08:36:01.692909",
+        "duration_seconds": 0.010314702987670898,
+        "memory_used_mb": 0.0,
+        "cpu_percent": 0.0,
+        "success": true,
+        "function_name": "temizle",
+        "args_count": 1,
+        "kwargs_count": 0
+      },
+      {
+        "timestamp": "2025-08-18T08:36:01.692909",
+        "duration_seconds": 0.0,
+        "memory_used_mb": 0.0,
+        "cpu_percent": 0.0,
+        "success": true,
+        "function_name": "temizle",
+        "args_count": 1,
+        "kwargs_count": 0
+      },
+      {
+        "timestamp": "2025-08-18T08:36:01.692909",
+        "duration_seconds": 0.0,
+        "memory_used_mb": 0.0,
+        "cpu_percent": 0.0,
+        "success": true,
+        "function_name": "temizle",
+        "args_count": 1,
+        "kwargs_count": 0
+      },
+      {
+        "timestamp": "2025-08-18T08:36:01.692909",
+        "duration_seconds": 0.0,
+        "memory_used_mb": 0.0,
+        "cpu_percent": 60.0,
+        "success": true,
+        "function_name": "temizle",
+        "args_count": 1,
+        "kwargs_count": 0
+      },
+      {
+        "timestamp": "2025-08-18T08:36:01.692909",
+        "duration_seconds": 0.0,
+        "memory_used_mb": 0.0,
+        "cpu_percent": 0.0,
+        "success": true,
+        "function_name": "temizle",
+        "args_count": 1,
+        "kwargs_count": 0
+      },
+      {
+        "timestamp": "2025-08-18T08:36:01.698346",
+        "duration_seconds": 0.005436897277832031,
+        "memory_used_mb": 0.0,
+        "cpu_percent": 0.0,
+        "success": true,
+        "function_name": "temizle",
+        "args_count": 1,
+        "kwargs_count": 0
+      },
+      {
+        "timestamp": "2025-08-18T08:36:01.698346",
+        "duration_seconds": 0.0,
+        "memory_used_mb": 0.0,
+        "cpu_percent": 0.0,
+        "success": true,
+        "function_name": "temizle",
+        "args_count": 1,
+        "kwargs_count": 0
+      },
+      {
+        "timestamp": "2025-08-18T08:36:01.698346",
+        "duration_seconds": 0.0,
+        "memory_used_mb": 0.0,
+        "cpu_percent": 0.0,
+        "success": true,
+        "function_name": "temizle",
+        "args_count": 1,
+        "kwargs_count": 0
+      },
+      {
+        "timestamp": "2025-08-18T08:36:01.713605",
+        "duration_seconds": 0.0,
+        "memory_used_mb": 0.0,
+        "cpu_percent": 0.0,
+        "success": true,
+        "function_name": "temizle",
+        "args_count": 1,
+        "kwargs_count": 0
+      },
+      {
+        "timestamp": "2025-08-18T08:36:01.736091",
+        "duration_seconds": 0.0,
+        "memory_used_mb": 0.0,
+        "cpu_percent": 40.5,
         "success": true,
         "function_name": "temizle",
         "args_count": 1,
@@ -1499,19 +1499,19 @@
     ],
     "ml_metin_temizleme": [
       {
-        "timestamp": "2025-08-18T08:21:48.152730",
-        "duration_seconds": 0.11447787284851074,
-        "memory_used_mb": 0.08984375,
-        "cpu_percent": 12.5,
+        "timestamp": "2025-08-18T08:35:59.238751",
+        "duration_seconds": 0.07244133949279785,
+        "memory_used_mb": 0.08203125,
+        "cpu_percent": 0.0,
         "success": true,
         "function_name": "clean_questions",
         "args_count": 1,
         "kwargs_count": 0
       },
       {
-        "timestamp": "2025-08-18T08:21:51.869935",
-        "duration_seconds": 0.1097874641418457,
-        "memory_used_mb": 0.0,
+        "timestamp": "2025-08-18T08:36:01.698346",
+        "duration_seconds": 0.07830619812011719,
+        "memory_used_mb": 0.00390625,
         "cpu_percent": 0.0,
         "success": true,
         "function_name": "clean_questions",
@@ -1521,20 +1521,20 @@
     ],
     "ml_model_egitimi": [
       {
-        "timestamp": "2025-08-18T08:21:48.183680",
-        "duration_seconds": 0.028824567794799805,
-        "memory_used_mb": 1.40234375,
-        "cpu_percent": 10.4,
+        "timestamp": "2025-08-18T08:35:59.261445",
+        "duration_seconds": 0.022693395614624023,
+        "memory_used_mb": 1.36328125,
+        "cpu_percent": 6.25,
         "success": true,
         "function_name": "train_model",
         "args_count": 1,
         "kwargs_count": 0
       },
       {
-        "timestamp": "2025-08-18T08:21:51.894814",
-        "duration_seconds": 0.024878740310668945,
-        "memory_used_mb": 0.328125,
-        "cpu_percent": 6.65,
+        "timestamp": "2025-08-18T08:36:01.713605",
+        "duration_seconds": 0.0152587890625,
+        "memory_used_mb": 0.3671875,
+        "cpu_percent": 16.65,
         "success": true,
         "function_name": "train_model",
         "args_count": 1,
@@ -1543,9 +1543,9 @@
     ],
     "ml_benzer_soru_bulma": [
       {
-        "timestamp": "2025-08-18T08:21:48.189564",
-        "duration_seconds": 0.005883932113647461,
-        "memory_used_mb": 0.0546875,
+        "timestamp": "2025-08-18T08:35:59.261445",
+        "duration_seconds": 0.0,
+        "memory_used_mb": 0.0625,
         "cpu_percent": 0.0,
         "success": true,
         "function_name": "find_similar_questions_ml",
@@ -1553,18 +1553,8 @@
         "kwargs_count": 2
       },
       {
-        "timestamp": "2025-08-18T08:21:48.195386",
-        "duration_seconds": 0.004839658737182617,
-        "memory_used_mb": 0.00390625,
-        "cpu_percent": 50.0,
-        "success": true,
-        "function_name": "find_similar_questions_ml",
-        "args_count": 2,
-        "kwargs_count": 2
-      },
-      {
-        "timestamp": "2025-08-18T08:21:48.201847",
-        "duration_seconds": 0.0032873153686523438,
+        "timestamp": "2025-08-18T08:35:59.261445",
+        "duration_seconds": 0.0,
         "memory_used_mb": 0.00390625,
         "cpu_percent": 0.0,
         "success": true,
@@ -1573,8 +1563,18 @@
         "kwargs_count": 2
       },
       {
-        "timestamp": "2025-08-18T08:21:48.206956",
-        "duration_seconds": 0.0031037330627441406,
+        "timestamp": "2025-08-18T08:35:59.267545",
+        "duration_seconds": 0.006100654602050781,
+        "memory_used_mb": 0.00390625,
+        "cpu_percent": 0.0,
+        "success": true,
+        "function_name": "find_similar_questions_ml",
+        "args_count": 2,
+        "kwargs_count": 2
+      },
+      {
+        "timestamp": "2025-08-18T08:35:59.267545",
+        "duration_seconds": 0.0,
         "memory_used_mb": 0.0,
         "cpu_percent": 0.0,
         "success": true,
@@ -1583,20 +1583,20 @@
         "kwargs_count": 2
       },
       {
-        "timestamp": "2025-08-18T08:21:48.211463",
-        "duration_seconds": 0.004506587982177734,
+        "timestamp": "2025-08-18T08:35:59.267545",
+        "duration_seconds": 0.0,
         "memory_used_mb": 0.0,
-        "cpu_percent": 50.0,
+        "cpu_percent": 0.0,
         "success": true,
         "function_name": "find_similar_questions_ml",
         "args_count": 2,
         "kwargs_count": 2
       },
       {
-        "timestamp": "2025-08-18T08:21:51.900094",
-        "duration_seconds": 0.0037746429443359375,
+        "timestamp": "2025-08-18T08:36:01.713605",
+        "duration_seconds": 0.0,
         "memory_used_mb": 0.0,
-        "cpu_percent": 10.0,
+        "cpu_percent": 0.0,
         "success": true,
         "function_name": "find_similar_questions_ml",
         "args_count": 2,
@@ -1605,10 +1605,10 @@
     ],
     "ml_kumeleme_analizi": [
       {
-        "timestamp": "2025-08-18T08:21:51.653022",
-        "duration_seconds": 3.440079689025879,
-        "memory_used_mb": 0.671875,
-        "cpu_percent": 19.65,
+        "timestamp": "2025-08-18T08:36:01.517496",
+        "duration_seconds": 2.249950885772705,
+        "memory_used_mb": 0.67578125,
+        "cpu_percent": 14.15,
         "success": true,
         "function_name": "cluster_analysis",
         "args_count": 1,
@@ -1617,10 +1617,10 @@
     ],
     "ml_konu_analizi": [
       {
-        "timestamp": "2025-08-18T08:21:51.754345",
-        "duration_seconds": 0.10132241249084473,
-        "memory_used_mb": 0.16796875,
-        "cpu_percent": 39.2,
+        "timestamp": "2025-08-18T08:36:01.609910",
+        "duration_seconds": 0.09241366386413574,
+        "memory_used_mb": 0.20703125,
+        "cpu_percent": 39.65,
         "success": true,
         "function_name": "topic_analysis",
         "args_count": 1,
@@ -1629,10 +1629,10 @@
     ],
     "elasticsearch_arama": [
       {
-        "timestamp": "2025-08-18T08:21:51.977829",
-        "duration_seconds": 0.07773494720458984,
+        "timestamp": "2025-08-18T08:36:01.786467",
+        "duration_seconds": 0.07286190986633301,
         "memory_used_mb": 0.67578125,
-        "cpu_percent": 13.05,
+        "cpu_percent": 3.85,
         "success": true,
         "function_name": "benzer_sorulari_bul",
         "args_count": 1,
@@ -1646,120 +1646,120 @@
       "total_runs": 2,
       "successful_runs": 2,
       "failed_runs": 0,
-      "avg_duration": 0.007990002632141113,
-      "min_duration": 0.0024023056030273438,
-      "max_duration": 0.013577699661254883,
-      "total_duration": 0.015980005264282227,
-      "avg_memory": 0.4140625,
-      "max_memory": 0.80859375,
-      "avg_cpu": 19.95,
-      "max_cpu": 25.0,
-      "last_run": "2025-08-18T08:21:51.760147"
+      "avg_duration": 0.007591843605041504,
+      "min_duration": 0.005053520202636719,
+      "max_duration": 0.010130167007446289,
+      "total_duration": 0.015183687210083008,
+      "avg_memory": 0.427734375,
+      "max_memory": 0.8203125,
+      "avg_cpu": 15.0,
+      "max_cpu": 30.0,
+      "last_run": "2025-08-18T08:36:01.620040"
     },
     "stopword_temizleme": {
       "operation_name": "stopword_temizleme",
       "total_runs": 147,
       "successful_runs": 147,
       "failed_runs": 0,
-      "avg_duration": 0.0013045615890399129,
+      "avg_duration": 0.0010318691227711788,
       "min_duration": 0.0,
-      "max_duration": 0.00726318359375,
-      "total_duration": 0.1917705535888672,
-      "avg_memory": 0.0002657312925170068,
+      "max_duration": 0.010760784149169922,
+      "total_duration": 0.15168476104736328,
+      "avg_memory": 0.00031887755102040814,
       "max_memory": 0.01171875,
-      "avg_cpu": 3.2799319727891154,
-      "max_cpu": 50.0,
-      "last_run": "2025-08-18T08:21:51.925421"
+      "avg_cpu": 2.601360544217687,
+      "max_cpu": 60.0,
+      "last_run": "2025-08-18T08:36:01.736091"
     },
     "ml_metin_temizleme": {
       "operation_name": "ml_metin_temizleme",
       "total_runs": 2,
       "successful_runs": 2,
       "failed_runs": 0,
-      "avg_duration": 0.11213266849517822,
-      "min_duration": 0.1097874641418457,
-      "max_duration": 0.11447787284851074,
-      "total_duration": 0.22426533699035645,
-      "avg_memory": 0.044921875,
-      "max_memory": 0.08984375,
-      "avg_cpu": 6.25,
-      "max_cpu": 12.5,
-      "last_run": "2025-08-18T08:21:51.869935"
+      "avg_duration": 0.07537376880645752,
+      "min_duration": 0.07244133949279785,
+      "max_duration": 0.07830619812011719,
+      "total_duration": 0.15074753761291504,
+      "avg_memory": 0.04296875,
+      "max_memory": 0.08203125,
+      "avg_cpu": 0.0,
+      "max_cpu": 0.0,
+      "last_run": "2025-08-18T08:36:01.698346"
     },
     "ml_model_egitimi": {
       "operation_name": "ml_model_egitimi",
       "total_runs": 2,
       "successful_runs": 2,
       "failed_runs": 0,
-      "avg_duration": 0.026851654052734375,
-      "min_duration": 0.024878740310668945,
-      "max_duration": 0.028824567794799805,
-      "total_duration": 0.05370330810546875,
+      "avg_duration": 0.01897609233856201,
+      "min_duration": 0.0152587890625,
+      "max_duration": 0.022693395614624023,
+      "total_duration": 0.03795218467712402,
       "avg_memory": 0.865234375,
-      "max_memory": 1.40234375,
-      "avg_cpu": 8.525,
-      "max_cpu": 10.4,
-      "last_run": "2025-08-18T08:21:51.894814"
+      "max_memory": 1.36328125,
+      "avg_cpu": 11.45,
+      "max_cpu": 16.65,
+      "last_run": "2025-08-18T08:36:01.713605"
     },
     "ml_benzer_soru_bulma": {
       "operation_name": "ml_benzer_soru_bulma",
       "total_runs": 6,
       "successful_runs": 6,
       "failed_runs": 0,
-      "avg_duration": 0.004232645034790039,
-      "min_duration": 0.0031037330627441406,
-      "max_duration": 0.005883932113647461,
-      "total_duration": 0.025395870208740234,
-      "avg_memory": 0.010416666666666666,
-      "max_memory": 0.0546875,
-      "avg_cpu": 18.333333333333332,
-      "max_cpu": 50.0,
-      "last_run": "2025-08-18T08:21:51.900094"
+      "avg_duration": 0.0010167757670084636,
+      "min_duration": 0.0,
+      "max_duration": 0.006100654602050781,
+      "total_duration": 0.006100654602050781,
+      "avg_memory": 0.01171875,
+      "max_memory": 0.0625,
+      "avg_cpu": 0.0,
+      "max_cpu": 0.0,
+      "last_run": "2025-08-18T08:36:01.713605"
     },
     "ml_kumeleme_analizi": {
       "operation_name": "ml_kumeleme_analizi",
       "total_runs": 1,
       "successful_runs": 1,
       "failed_runs": 0,
-      "avg_duration": 3.440079689025879,
-      "min_duration": 3.440079689025879,
-      "max_duration": 3.440079689025879,
-      "total_duration": 3.440079689025879,
-      "avg_memory": 0.671875,
-      "max_memory": 0.671875,
-      "avg_cpu": 19.65,
-      "max_cpu": 19.65,
-      "last_run": "2025-08-18T08:21:51.653022"
+      "avg_duration": 2.249950885772705,
+      "min_duration": 2.249950885772705,
+      "max_duration": 2.249950885772705,
+      "total_duration": 2.249950885772705,
+      "avg_memory": 0.67578125,
+      "max_memory": 0.67578125,
+      "avg_cpu": 14.15,
+      "max_cpu": 14.15,
+      "last_run": "2025-08-18T08:36:01.517496"
     },
     "ml_konu_analizi": {
       "operation_name": "ml_konu_analizi",
       "total_runs": 1,
       "successful_runs": 1,
       "failed_runs": 0,
-      "avg_duration": 0.10132241249084473,
-      "min_duration": 0.10132241249084473,
-      "max_duration": 0.10132241249084473,
-      "total_duration": 0.10132241249084473,
-      "avg_memory": 0.16796875,
-      "max_memory": 0.16796875,
-      "avg_cpu": 39.2,
-      "max_cpu": 39.2,
-      "last_run": "2025-08-18T08:21:51.754345"
+      "avg_duration": 0.09241366386413574,
+      "min_duration": 0.09241366386413574,
+      "max_duration": 0.09241366386413574,
+      "total_duration": 0.09241366386413574,
+      "avg_memory": 0.20703125,
+      "max_memory": 0.20703125,
+      "avg_cpu": 39.65,
+      "max_cpu": 39.65,
+      "last_run": "2025-08-18T08:36:01.609910"
     },
     "elasticsearch_arama": {
       "operation_name": "elasticsearch_arama",
       "total_runs": 1,
       "successful_runs": 1,
       "failed_runs": 0,
-      "avg_duration": 0.07773494720458984,
-      "min_duration": 0.07773494720458984,
-      "max_duration": 0.07773494720458984,
-      "total_duration": 0.07773494720458984,
+      "avg_duration": 0.07286190986633301,
+      "min_duration": 0.07286190986633301,
+      "max_duration": 0.07286190986633301,
+      "total_duration": 0.07286190986633301,
       "avg_memory": 0.67578125,
       "max_memory": 0.67578125,
-      "avg_cpu": 13.05,
-      "max_cpu": 13.05,
-      "last_run": "2025-08-18T08:21:51.977829"
+      "avg_cpu": 3.85,
+      "max_cpu": 3.85,
+      "last_run": "2025-08-18T08:36:01.786467"
     }
   }
 }

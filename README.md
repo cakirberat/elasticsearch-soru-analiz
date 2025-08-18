@@ -2,22 +2,6 @@
 
 Bu proje, Türkçe soru arama ve analiz işlemleri için geliştirilmiş kapsamlı bir sistemdir. Elasticsearch ve Makine Öğrenmesi teknolojilerini kullanarak benzer soruları bulma, performans izleme ve analiz özellikleri sunar.
 
-## 🚀 Yeni Özellikler (v2.1)
-
-### ✨ Kullanıcı Arayüzü İyileştirmeleri
-- **Tooltip Sistemi**: Tüm butonlarda açıklayıcı ipuçları
-- **Durum Göstergeleri**: Sistem durumu ve çalışan işlemler hakkında anlık bilgi
-- **Gelişmiş Hata Mesajları**: Kullanıcı dostu ve açıklayıcı hata bildirimleri
-- **Ayarlar Paneli**: Program ayarlarını özelleştirme imkanı
-- **Sadeleştirilmiş Arayüz**: İlerleme çubuğu kaldırıldı, daha temiz görünüm
-
-### 🔧 Sistem İyileştirmeleri
-- **Merkezi Hata Yönetimi**: Tüm hataların otomatik loglanması ve kullanıcı dostu mesajlar
-- **Güvenli Çıkış**: Program kapatılırken otomatik veri kaydetme
-- **Thread Güvenliği**: Çoklu işlem desteği ve güvenli veri erişimi
-- **Performans İzleme**: Detaylı sistem performans metrikleri
-- **Otomatik Yedekleme**: Kritik verilerin otomatik kaydedilmesi
-- **ML Model Optimizasyonu**: TF-IDF modeli düzeltildi ve iyileştirildi
 
 ### 📊 Performans ve Analiz
 - **Gerçek Zamanlı İzleme**: CPU, bellek ve disk kullanımı takibi
@@ -162,79 +146,6 @@ Performans verileri şu formatlarda raporlanır:
 - **Veri Doğrulama**: Giriş verilerinin doğrulanması
 - **Sistem Hataları**: İşletim sistemi seviyesi sorunlar
 
-## 🔄 Güncelleme Geçmişi
-
-### v2.1 (Güncel)
-- ✅ İlerleme çubuğu kaldırıldı (daha temiz arayüz)
-- ✅ Karanlık mod seçeneği kaldırıldı
-- ✅ ML model TF-IDF matrisi düzeltildi
-- ✅ Benzerlik hesaplama algoritması iyileştirildi
-- ✅ Model yükleme ve eğitim süreci optimize edildi
-- ✅ Kullanıcı arayüzü sadeleştirildi
-
-### v2.0
-- ✅ Tooltip sistemi eklendi
-- ✅ İlerleme çubuğu eklendi
-- ✅ Merkezi hata yönetimi
-- ✅ Gelişmiş performans izleme
-- ✅ Kullanıcı ayarları sistemi
-- ✅ Thread güvenliği iyileştirildi
-- ✅ Güvenli çıkış sistemi
-- ✅ Detaylı raporlama
-
-### v1.0
-- ✅ Temel soru arama sistemi
-- ✅ Elasticsearch entegrasyonu
-- ✅ ML analizi
-- ✅ Basit performans izleme
-
-## 🤝 Katkıda Bulunma
-
-1. Projeyi fork edin
-2. Feature branch oluşturun (`git checkout -b feature/AmazingFeature`)
-3. Değişikliklerinizi commit edin (`git commit -m 'Add some AmazingFeature'`)
-4. Branch'inizi push edin (`git push origin feature/AmazingFeature`)
-5. Pull Request oluşturun
-
-## 📝 Lisans
-
-Bu proje MIT lisansı altında lisanslanmıştır. Detaylar için `LICENSE` dosyasına bakın.
-
-## 🆘 Destek
-
-### Sık Sorulan Sorular
-
-**Q: Elasticsearch bağlantı hatası alıyorum**
-A: Elasticsearch'in çalıştığından emin olun ve `es_config.py` ile bağlantıyı test edin.
-
-**Q: Performans özeti boş görünüyor**
-A: Önce "Hızlı Performans Testi" butonuna basın veya GUI'de soru arama yapın.
-
-**Q: Program çok yavaş çalışıyor**
-A: Sistem durumunu kontrol edin ve gereksiz işlemleri durdurun.
-
-**Q: ML analizi benzer soru bulamıyor**
-A: Veritabanında uygun sorular olduğundan emin olun. ML modeli TF-IDF ile çalışır ve benzer kelimeleri arar.
-
-**Q: Model eğitimi başarısız oluyor**
-A: Veritabanında yeterli soru olduğundan emin olun. En az 10-20 soru gerekir.
-
-### Teknik Destek
-- **Hata Raporları**: `error_log.txt` dosyasını kontrol edin
-- **Performans Sorunları**: `performance_metrics.json` dosyasını inceleyin
-- **Log Dosyaları**: Tüm loglar proje dizininde saklanır
-
-## 🎯 Gelecek Planları
-
-- [ ] Çoklu dil desteği
-- [ ] Gelişmiş grafik raporları
-- [ ] API entegrasyonu
-- [ ] Mobil uygulama
-- [ ] Bulut tabanlı senkronizasyon
-- [ ] Daha fazla ML modeli (BERT, Word2Vec)
-- [ ] Otomatik soru kategorilendirme
-
----
 
 **🎯 Soru Projesi** - Türkçe soru arama ve analiz sisteminin en gelişmiş versiyonu!
 
