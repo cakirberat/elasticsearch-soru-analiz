@@ -436,7 +436,22 @@ class SoruAramaApp:
                 return
             
             analyzer = PerformanceAnalyzer()
-            predictions = analyzer.predict_future_performance()
+            # Mevcut performansı analiz et
+            analyzer.analyze_current_performance()
+
+            # Hedef veri miktarını kullanıcıdan al
+            target = simpledialog.askinteger(
+                "Hedef Veri Miktarı",
+                "Tahmin yapılacak veri miktarını girin (ör. 10000):",
+                minvalue=1,
+                initialvalue=10000,
+                parent=self.root,
+            )
+            if not target:
+                return
+
+            # Tahminleri hesapla
+            predictions = analyzer.predict_performance(target)
             
             # Yeni pencerede göster
             prediction_window = tk.Toplevel(self.root)
@@ -451,7 +466,21 @@ class SoruAramaApp:
             text_widget = scrolledtext.ScrolledText(prediction_window, width=70, height=20, 
                                                    font=("Consolas", 10), bg="#e3f2fd", fg="#222")
             text_widget.pack(fill=tk.BOTH, expand=True, padx=10, pady=10)
-            text_widget.insert(tk.END, predictions)
+            # Metin çıktısını hazırla
+            if not predictions:
+                text_widget.insert(tk.END, "Tahmin üretilemedi. Yeterli veri olmayabilir.")
+            else:
+                lines = []
+                lines.append(f"Hedef veri miktarı: {target:,}\n")
+                for op_name, pred in predictions.items():
+                    lines.append(f"[ {op_name} ]")
+                    lines.append(f"  ⏱️ Süre (sn): {pred['predicted_duration']:.2f}")
+                    lines.append(f"  ⏱️ Süre (dk): {pred['predicted_duration']/60:.2f}")
+                    if pred['predicted_duration'] > 3600:
+                        lines.append(f"  ⏱️ Süre (saat): {pred['predicted_duration']/3600:.2f}")
+                    lines.append(f"  💾 Tahmini Bellek (MB): {pred['predicted_memory']:.2f}")
+                    lines.append(f"  Güven aralığı (sn): {pred['confidence_min']:.2f} - {pred['confidence_max']:.2f}\n")
+                text_widget.insert(tk.END, "\n".join(lines))
             text_widget.config(state=tk.DISABLED)
             
             # Kapat butonu
