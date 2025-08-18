@@ -1,4 +1,5 @@
 import os
+import re
 from elasticsearch import Elasticsearch
 from TurkishStemmer import TurkishStemmer
 from performance_monitor import monitor_performance
@@ -23,6 +24,8 @@ def save_stopwords(stopwords):
 
 stopwords = load_stopwords()
 stemmer = TurkishStemmer()
+# Noktalama ve özel karakterleri temizlemek için regex (Türkçe karakterleri korur)
+_non_word_pattern = re.compile(r"[^\w\sÇĞİÖŞÜçğıöşü]")
 
 def refresh_stopwords():
     """Stopwords listesini dosyadan tekrar yükler (GUI değişikliklerinde güncel kalması için)."""
@@ -33,12 +36,20 @@ def refresh_stopwords():
 @monitor_performance("stopword_temizleme")
 def temizle(soru):
     global stopwords
+    # Metinden noktalama ve özel karakterleri kaldır, küçük harfe çevir
+    normalized = _non_word_pattern.sub(" ", str(soru)).lower()
+    tokens = normalized.split()
+
     # Stopwords listesini köklerine indirgenmiş ve küçük harfe çevrilmiş olarak hazırla
-    stemmed_stopwords = set([stemmer.stem(sw.lower()) for sw in stopwords])
-    return " ".join([
-        stemmer.stem(kelime.lower()) for kelime in soru.lower().split()
-        if stemmer.stem(kelime.lower()) not in stemmed_stopwords
-    ])
+    stemmed_stopwords = set(stemmer.stem(sw.lower()) for sw in stopwords)
+
+    # Kelimeleri köklerine indir, stopwords köklerinde olanları çıkar
+    filtered_stemmed_tokens = [
+        stemmer.stem(token) for token in tokens
+        if stemmer.stem(token) not in stemmed_stopwords
+    ]
+
+    return " ".join(filtered_stemmed_tokens)
 
 # Elasticsearch arama fonksiyonu
 @monitor_performance("elasticsearch_arama")
@@ -49,12 +60,14 @@ def benzer_sorulari_bul(soru, esik=0.75):
         print("❌ Elasticsearch bağlantısı kurulamadı. Lütfen servisin çalıştığından emin olun.")
         return
     
+    # Sorguyu stopwords ve köklerine göre temizle
     temiz_soru = temizle(soru)
 
     body = {
         "query": {
-            "match": {
-                "soru": temiz_soru
+            "multi_match": {
+                "query": temiz_soru,
+                "fields": ["soru_cleaned^2", "soru"]
             }
         }
     }

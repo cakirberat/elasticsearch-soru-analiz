@@ -48,7 +48,7 @@ class SoruAramaApp:
         self.search_thread = None
         
         # Stopwords yükle
-        self.stopwords = load_stopwords()
+        self.stopwords = set(load_stopwords())
         
         # UI oluştur
         self.setup_ui()
@@ -319,7 +319,7 @@ class SoruAramaApp:
 
     def stopword_ekle(self):
         """Yeni stopword ekler"""
-        new_stopword = self.stopwords_search.get().strip()
+        new_stopword = self.stopwords_search.get().strip().lower()
         if not new_stopword:
             messagebox.showwarning("Uyarı", "Lütfen bir stopword girin.")
             return
@@ -329,7 +329,12 @@ class SoruAramaApp:
             return
             
         self.stopwords.add(new_stopword)
-        save_stopwords(self.stopwords)
+        save_stopwords(sorted(self.stopwords))
+        # Arama motorunun kullandığı global stopwords listesini yenile
+        try:
+            refresh_stopwords()
+        except Exception:
+            pass
         self.stopwords_guncelle()
         self.stopwords_search.delete(0, tk.END)
         self.update_status(f"'{new_stopword}' stopword olarak eklendi", "#27ae60")
@@ -346,7 +351,12 @@ class SoruAramaApp:
         
         if result:
             self.stopwords.remove(stopword)
-            save_stopwords(self.stopwords)
+            save_stopwords(sorted(self.stopwords))
+            # Arama motorunun kullandığı global stopwords listesini yenile
+            try:
+                refresh_stopwords()
+            except Exception:
+                pass
             self.stopwords_guncelle()
             self.update_status(f"'{stopword}' stopword olarak silindi", "#e74c3c")
 

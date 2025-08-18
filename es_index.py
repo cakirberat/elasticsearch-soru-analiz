@@ -1,8 +1,11 @@
 import sqlite3
-from elasticsearch import Elasticsearch
+from es_config import get_default_client
+from es_search import temizle
 
 # Elasticsearch'e bağlan
-es = Elasticsearch("http://localhost:9200")
+es = get_default_client()
+if not es:
+    raise SystemExit("Elasticsearch bağlantısı kurulamadı. Lütfen servisi kontrol edin.")
 
 # Index kontrolü (yeni API ile)
 try:
@@ -17,10 +20,14 @@ cursor = conn.cursor()
 cursor.execute("SELECT id, metin FROM sorular")
 sorular = cursor.fetchall()
 
-# Her soruyu Elasticsearch'e yükle
+# Her soruyu Elasticsearch'e yükle (temizlenmiş alanla birlikte)
 for soru_id, metin in sorular:
     try:
-        es.index(index="sorular", id=soru_id, document={"soru": metin})
+        temiz_metin = temizle(metin)
+        es.index(index="sorular", id=soru_id, document={
+            "soru": metin,
+            "soru_cleaned": temiz_metin
+        })
     except Exception as e:
         print(f"{soru_id} numaralı soru yüklenemedi:", e)
 
