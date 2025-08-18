@@ -63,6 +63,49 @@ class MainControlPanel:
         self.setup_ui()
         self.update_status()
         
+    def cleanup_json_files(self):
+        """Eski JSON tahmin dosyalarını temizler (son 14 günden eski olanları ve en yeni 10 dosya dışındakileri siler)."""
+        try:
+            # Tutma politikası
+            retention_days = 14
+            max_keep = 10
+
+            # Çalışma dizininde tarihe göre isimlenen dosyaları bul
+            files = [f for f in os.listdir('.') if f.startswith('performance_prediction_') and f.endswith('.json')]
+            files_full = [
+                (f, os.path.getmtime(f))
+                for f in files
+                if os.path.isfile(f)
+            ]
+
+            if not files_full:
+                messagebox.showinfo("Bilgi", "Temizlenecek JSON dosyası bulunamadı.")
+                return
+
+            # Tarihe göre yeni->eski sırala
+            files_full.sort(key=lambda x: x[1], reverse=True)
+
+            # En yeni max_keep dosyayı koru, diğer adayları değerlendir
+            to_consider = files_full[max_keep:]
+
+            # Gün eşiği
+            cutoff = time.time() - (retention_days * 86400)
+            deleted = 0
+            for fname, mtime in to_consider:
+                if mtime < cutoff:
+                    try:
+                        os.remove(fname)
+                        deleted += 1
+                    except Exception as e:
+                        self.log_message(f"{fname} silinirken hata: {e}", "ERROR")
+
+            self.log_message(f"JSON temizlik tamamlandı. Silinen dosya: {deleted}", "SUCCESS")
+            messagebox.showinfo("Tamamlandı", f"Temizlik tamamlandı. Silinen dosya: {deleted}")
+
+        except Exception as e:
+            self.log_message(f"JSON temizlik hatası: {e}", "ERROR")
+            messagebox.showerror("Hata", f"JSON dosyaları temizlenirken hata oluştu:\n{e}")
+
     def load_settings(self):
         """Kullanıcı ayarlarını yükler"""
         try:
@@ -160,6 +203,8 @@ class MainControlPanel:
              "Sistem durumunu kontrol eder ve raporlar."),
             ("🧹 Tüm İşlemleri Durdur", self.stop_all_processes, "#c0392b",
              "Çalışan tüm işlemleri güvenli şekilde durdurur."),
+            ("🧽 JSON Dosyalarını Temizle", self.cleanup_json_files, "#7f8c8d",
+             "Eski performans tahmin JSON dosyalarını temizler."),
             ("⚙️ Ayarlar", self.show_settings, "#34495e",
              "Program ayarlarını düzenler.")
         ])
