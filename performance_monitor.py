@@ -96,8 +96,16 @@ class PerformanceMonitor:
         print("PERFORMANS ÖZETİ")
         print("="*60)
         
+        if not self.metrics:
+            print("\n❌ Henüz hiçbir performans verisi toplanmamış.")
+            print("   Performans verisi toplamak için test işlemleri yapın.")
+            print("\n" + "="*60)
+            return
+        
+        has_data = False
         for operation_name, measurements in self.metrics.items():
             if measurements:
+                has_data = True
                 durations = [m['duration_seconds'] for m in measurements]
                 memories = [m['memory_used_mb'] for m in measurements]
                 
@@ -108,6 +116,10 @@ class PerformanceMonitor:
                 print(f"   En yavaş: {max(durations):.3f} saniye")
                 print(f"   Toplam süre: {sum(durations):.3f} saniye")
                 print(f"   Ortalama bellek kullanımı: {sum(memories)/len(memories):.2f} MB")
+        
+        if not has_data:
+            print("\n❌ Hiçbir işlem tamamlanmamış.")
+            print("   Performans verisi toplamak için test işlemleri yapın.")
         
         print("\n" + "="*60)
     

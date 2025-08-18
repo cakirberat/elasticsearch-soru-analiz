@@ -1,0 +1,116 @@
+{
+  "timestamp": "2025-08-18T07:42:00.017698",
+  "target_data_count": 10000,
+  "predictions": {
+    "stopword_temizleme": {
+      "predicted_duration": 0.12123152429674879,
+      "predicted_memory": 0.002821211184602822,
+      "confidence_min": 0.11609372312639966,
+      "confidence_max": 0.1263693254670979,
+      "estimated_minutes": 0.002020525404945813,
+      "estimated_hours": 3.367542341576355e-05
+    },
+    "elasticsearch_arama": {
+      "predicted_duration": 552.2966384887695,
+      "predicted_memory": 2.890656382993045,
+      "confidence_min": 552.2966384887695,
+      "confidence_max": 552.2966384887695,
+      "estimated_minutes": 9.204943974812826,
+      "estimated_hours": 0.1534157329135471
+    },
+    "ml_veri_yukleme": {
+      "predicted_duration": 108.78801345825195,
+      "predicted_memory": 3.4687876595916545,
+      "confidence_min": 108.78801345825195,
+      "confidence_max": 108.78801345825195,
+      "estimated_minutes": 1.8131335576375325,
+      "estimated_hours": 0.03021889262729221
+    },
+    "ml_metin_temizleme": {
+      "predicted_duration": 572.7195739746094,
+      "predicted_memory": 0.18750203565360293,
+      "confidence_min": 572.7195739746094,
+      "confidence_max": 572.7195739746094,
+      "estimated_minutes": 9.545326232910156,
+      "estimated_hours": 0.1590887705485026
+    },
+    "ml_model_yukleme": {
+      "predicted_duration": 54.395198822021484,
+      "predicted_memory": 3.312535963213652,
+      "confidence_min": 54.395198822021484,
+      "confidence_max": 54.395198822021484,
+      "estimated_minutes": 0.9065866470336914,
+      "estimated_hours": 0.015109777450561523
+    },
+    "ml_benzer_soru_bulma": {
+      "predicted_duration": 21.15011215209961,
+      "predicted_memory": 0.3281285623938051,
+      "confidence_min": 21.15011215209961,
+      "confidence_max": 21.15011215209961,
+      "estimated_minutes": 0.35250186920166016,
+      "estimated_hours": 0.005875031153361003
+    }
+  },
+  "analysis_results": {
+    "stopword_temizleme": {
+      "data_count": 72,
+      "avg_duration": 0.0008728669749365912,
+      "min_duration": 0.0,
+      "max_duration": 0.010275602340698242,
+      "total_duration": 0.06284642219543457,
+      "avg_memory": 0.0007052951388888889,
+      "performance_per_item": 1.2123152429674879e-05,
+      "measurement_count": 72
+    },
+    "elasticsearch_arama": {
+      "data_count": 1,
+      "avg_duration": 0.05522966384887695,
+      "min_duration": 0.05522966384887695,
+      "max_duration": 0.05522966384887695,
+      "total_duration": 0.05522966384887695,
+      "avg_memory": 0.72265625,
+      "performance_per_item": 0.05522966384887695,
+      "measurement_count": 1
+    },
+    "ml_veri_yukleme": {
+      "data_count": 1,
+      "avg_duration": 0.010878801345825195,
+      "min_duration": 0.010878801345825195,
+      "max_duration": 0.010878801345825195,
+      "total_duration": 0.010878801345825195,
+      "avg_memory": 0.8671875,
+      "performance_per_item": 0.010878801345825195,
+      "measurement_count": 1
+    },
+    "ml_metin_temizleme": {
+      "data_count": 1,
+      "avg_duration": 0.05727195739746094,
+      "min_duration": 0.05727195739746094,
+      "max_duration": 0.05727195739746094,
+      "total_duration": 0.05727195739746094,
+      "avg_memory": 0.046875,
+      "performance_per_item": 0.05727195739746094,
+      "measurement_count": 1
+    },
+    "ml_model_yukleme": {
+      "data_count": 1,
+      "avg_duration": 0.0054395198822021484,
+      "min_duration": 0.0054395198822021484,
+      "max_duration": 0.0054395198822021484,
+      "total_duration": 0.0054395198822021484,
+      "avg_memory": 0.828125,
+      "performance_per_item": 0.0054395198822021484,
+      "measurement_count": 1
+    },
+    "ml_benzer_soru_bulma": {
+      "data_count": 1,
+      "avg_duration": 0.002115011215209961,
+      "min_duration": 0.002115011215209961,
+      "max_duration": 0.002115011215209961,
+      "total_duration": 0.002115011215209961,
+      "avg_memory": 0.08203125,
+      "performance_per_item": 0.002115011215209961,
+      "measurement_count": 1
+    }
+  }
+}

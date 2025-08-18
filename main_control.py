@@ -58,17 +58,14 @@ class MainControlPanel:
         
         # Ana uygulamalar
         self.create_section(parent, "📱 Ana Uygulamalar", [
-            ("🖥️ GUI Uygulaması", self.start_gui, "#2a5298"),
-            ("🔍 Elasticsearch Test", self.start_es_test, "#e67e22"),
-            ("🤖 ML Analiz Test", self.start_ml_test, "#e74c3c"),
-            ("⚡ Performans Test", self.start_performance_test, "#9b59b6"),
-            ("🔮 Performans Tahmini", self.start_performance_analyzer, "#8e44ad")
+            ("🖥️ GUI Uygulaması", self.start_gui, "#2a5298")
         ])
         
         # Test ve analiz
         self.create_section(parent, "🧪 Test ve Analiz", [
             ("🔧 Elasticsearch Bağlantı", self.start_es_config, "#27ae60"),
             ("🤖 ML Test Sistemi", self.start_ml_test_system, "#e74c3c"),
+            ("⚡ Hızlı Performans Testi", self.quick_performance_test, "#e67e22"),
             ("📊 Performans Özeti", self.show_performance_summary, "#8e44ad"),
             ("💾 Metrikleri Kaydet", self.save_metrics, "#f39c12")
         ])
@@ -221,11 +218,61 @@ class MainControlPanel:
         """Elasticsearch yapılandırmasını başlatır"""
         self.run_script("es_config.py", "Elasticsearch Yapılandırma")
         
+    def quick_performance_test(self):
+        """Hızlı performans testi yapar"""
+        try:
+            self.log_message("Hızlı performans testi başlatılıyor...", "INFO")
+            
+            # Basit performans testleri
+            from performance_monitor import monitor_performance
+            import time
+            
+            @monitor_performance("hizli_test_1")
+            def test_function_1():
+                time.sleep(0.1)
+                return "Test 1 tamamlandı"
+            
+            @monitor_performance("hizli_test_2")
+            def test_function_2():
+                time.sleep(0.2)
+                return "Test 2 tamamlandı"
+            
+            @monitor_performance("hizli_test_3")
+            def test_function_3():
+                time.sleep(0.15)
+                return "Test 3 tamamlandı"
+            
+            # Testleri çalıştır
+            test_function_1()
+            test_function_2()
+            test_function_3()
+            
+            self.log_message("Hızlı performans testi tamamlandı", "SUCCESS")
+            messagebox.showinfo("Başarılı", 
+                "Hızlı performans testi tamamlandı!\n\n"
+                "Artık 'Performans Özeti' butonunu kullanabilirsiniz.")
+                
+        except Exception as e:
+            self.log_message(f"Hızlı performans testi hatası: {e}", "ERROR")
+            messagebox.showerror("Hata", f"Hızlı performans testi sırasında hata oluştu:\n{e}")
+        
     def show_performance_summary(self):
         """Performans özetini gösterir"""
         try:
-            from performance_monitor import print_performance_summary
+            from performance_monitor import print_performance_summary, performance_monitor
             import io, sys
+            
+            # Önce performans verisi var mı kontrol et
+            if not performance_monitor.metrics:
+                # Performans verisi yoksa kullanıcıya bilgi ver
+                messagebox.showinfo("Bilgi", 
+                    "Henüz hiçbir performans verisi toplanmamış.\n\n"
+                    "Performans özeti görmek için önce şu işlemlerden birini yapın:\n"
+                    "• Elasticsearch Test\n"
+                    "• ML Analiz Test\n"
+                    "• Performans Test\n"
+                    "• GUI Uygulamasında soru arama yapın")
+                return
             
             # Çıktıyı yakala
             old_stdout = sys.stdout
@@ -234,6 +281,13 @@ class MainControlPanel:
             sys.stdout = old_stdout
             
             summary = mystdout.getvalue()
+            
+            # Eğer özet boşsa
+            if not summary.strip() or summary.strip() == "="*60 + "\nPERFORMANS ÖZETİ\n" + "="*60:
+                messagebox.showinfo("Bilgi", 
+                    "Performans özeti boş.\n\n"
+                    "Performans verisi toplamak için önce test işlemleri yapın.")
+                return
             
             # Yeni pencerede göster
             summary_window = tk.Toplevel(self.root)
@@ -251,15 +305,26 @@ class MainControlPanel:
             
         except Exception as e:
             self.log_message(f"Performans özeti gösterilirken hata: {e}", "ERROR")
+            messagebox.showerror("Hata", f"Performans özeti gösterilirken hata oluştu:\n{e}")
             
     def save_metrics(self):
         """Metrikleri kaydeder"""
         try:
-            from performance_monitor import save_performance_metrics
+            from performance_monitor import save_performance_metrics, performance_monitor
+            
+            # Performans verisi var mı kontrol et
+            if not performance_monitor.metrics:
+                messagebox.showinfo("Bilgi", 
+                    "Henüz hiçbir performans verisi toplanmamış.\n\n"
+                    "Metrikleri kaydetmek için önce test işlemleri yapın.")
+                return
+            
             save_performance_metrics()
             self.log_message("Performans metrikleri kaydedildi", "SUCCESS")
+            messagebox.showinfo("Başarılı", "Performans metrikleri 'performance_metrics.json' dosyasına kaydedildi.")
         except Exception as e:
             self.log_message(f"Metrikler kaydedilirken hata: {e}", "ERROR")
+            messagebox.showerror("Hata", f"Metrikler kaydedilirken hata oluştu:\n{e}")
             
     def check_system_status(self):
         """Sistem durumunu kontrol eder"""
