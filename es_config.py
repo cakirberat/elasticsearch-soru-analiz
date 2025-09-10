@@ -34,7 +34,7 @@ def create_elasticsearch_client(host="localhost", port=9200, use_ssl=False, user
         "hosts": [url],
         "verify_certs": False,  # SSL sertifika doğrulamasını devre dışı bırak
         "ssl_show_warn": False,  # SSL uyarılarını gizle
-        "timeout": 30,  # 30 saniye timeout
+        "request_timeout": 30,  # 30 saniye timeout
         "max_retries": 3,  # Maksimum 3 deneme
         "retry_on_timeout": True,  # Timeout durumunda tekrar dene
     }
